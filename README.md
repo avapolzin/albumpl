@@ -1,5 +1,5 @@
 # albuMPL-palette
-Custom matplotlib color palettes based on album covers. New default color cycles and colormaps are stored in style shets for easy access.
+Custom matplotlib color palettes based on album covers. New default color cycles and colormaps are stored in style sheets for easy access.
 
 The options are as follows:
 1. __LondonCalling__ inspired by The Clash - _London Calling_ (which, of course, ***technically*** means it was inspired by Elvis Presley's eponymous album)
