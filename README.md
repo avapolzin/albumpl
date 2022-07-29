@@ -15,7 +15,7 @@ sudo python3 setupy.py install
 
 If you use this package or the scripts in this repository in a publication or presentation, please add a footnote linking to https://github.com/avapolzin/albuMPL-palette and consider adding this software to your acknowledgments. (Or if you would like to cite `albumpl`, please email me, and I will ensure there is a citable DOI available.) I'd love to feature plots/figures that make use of these palettes in the wild, so should these palettes be of use, please send me a copy of that figure and/or a link to your paper or presentation and I will share it here.
 
-Each of the included palettes has been checked with [COBLIS](https://www.color-blindness.com/coblis-color-blindness-simulator/) for legibility for individuals with various forms of color blindness. Best, though, is to check your specific figures' readability, too.
+Each of the included palettes has been checked with [COBLIS](https://www.color-blindness.com/coblis-color-blindness-simulator/), and should be legible for individuals with the most common forms of color blindness. Best, though, is to check your specific figures' readability, too.
 
 
 The palette options (to now) are:
