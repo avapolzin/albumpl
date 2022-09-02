@@ -1,0 +1,12 @@
+README.md
+setup.py
+albumpl/__init__.py
+albumpl.egg-info/PKG-INFO
+albumpl.egg-info/SOURCES.txt
+albumpl.egg-info/dependency_links.txt
+albumpl.egg-info/requires.txt
+albumpl.egg-info/top_level.txt
+albumpl/cmap/__init__.py
+albumpl/cmap/cmap.py
+albumpl/palette/__init__.py
+albumpl/palette/palette.py

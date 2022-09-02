@@ -6,7 +6,7 @@ setuptools.setup(
 	author = "Ava Polzin",
 	author_email = "apolzin@uchicago.edu",
 	description = "Matplotlib color palettes based on album covers.",
-	packages = ["albumpl", "albumpl/palette"],
+	packages = ["albumpl", "albumpl/palette", "albumpl/cmap"],
 	url = "https://github.com/avapolzin/albuMPL-palette",
 	license = "MIT",
 	classifiers = [
@@ -15,5 +15,5 @@ setuptools.setup(
 		"Operating System :: OS Independent",
 		"Programming Language :: Python"],
 	python_requires = ">=3",
-	install_requires = ["matplotlib"]
+	install_requires = ["matplotlib", "numpy"]
 )

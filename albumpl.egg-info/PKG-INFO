@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: albumpl
+Version: 0.1
+Summary: Matplotlib color palettes based on album covers.
+Home-page: https://github.com/avapolzin/albuMPL-palette
+Author: Ava Polzin
+Author-email: apolzin@uchicago.edu
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Requires-Python: >=3
+
+UNKNOWN
+
