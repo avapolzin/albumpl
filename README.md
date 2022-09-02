@@ -1,4 +1,4 @@
-# albuMPL-palette
+# `albumpl `
 Custom matplotlib color palettes based on album covers. New default color cycles and colormaps are stored in style sheets for easy access.
 
 To install:
