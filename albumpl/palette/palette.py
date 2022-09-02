@@ -161,7 +161,7 @@ def return_colors(palette):
 
 	return palettes['palette'][palettes['name'] == palette]['cycle']
 
-def add_cmaps(cmap = 'all', verbose = False):
+def add_cmaps(cmap = 'all'):
 	if cmap == 'all':
 		global LondonCalling
 		global LondonCalling_r
