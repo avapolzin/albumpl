@@ -28,6 +28,9 @@ The palette options (to now) are:
 3. __RhumbLine__ inspired by Ra Ra Riot - _The Rhumb Line_
 ![RhumbLine_summary](https://user-images.githubusercontent.com/29441772/149860002-220f06c8-ed04-4a83-8c00-36e3e424af54.png)
 
+4. __Matangi__ inspired by M.I.A. - _Matangi_
+![Matangi_summary](https://user-images.githubusercontent.com/29441772/188256902-6fa7b458-1cb5-4bd6-b4ef-9299ef1097ad.png)
+
 
 Additional palettes will be added moving forward. Is there a specific album you want considered for a future palette? Please open an issue with the name of the album and artist and an image of the album cover.
 
