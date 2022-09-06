@@ -37,7 +37,6 @@ Additional palettes will be added moving forward. Is there a specific album you 
 ***
 # How to use `albumpl`:
 ### Some quick recipes.
-#The only dependency is `matplotlib`.
 
 - **To list all palettes and their properties:**
 ```python
