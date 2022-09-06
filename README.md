@@ -69,6 +69,6 @@ set_default_cmap('RhumbLine')
 import matplotlib.pyplot as plt
 from albumpl.cmap import * #yes, this is bad practice, but easiest in this case!
 
-plt.imshow(image, cmap = Matangi()
+plt.imshow(image, cmap = Matangi())
 ```
 *To reverse the colormap, use the argument `reverse_cmap = True` or just feed the colormap the string "reverse" or "_r".*
