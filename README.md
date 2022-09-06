@@ -72,3 +72,10 @@ from albumpl.cmap import * #yes, this is bad practice, but easiest in this case!
 plt.imshow(image, cmap = Matangi())
 ```
 *To reverse the colormap, use the argument `reverse_cmap = True` or just feed the colormap the string "reverse" or "_r".*
+
+- **To access the colors in a color cycle/palette without setting a default:**
+```python
+from albumpl.palette import return_colors
+
+return_colors('Antisocialites')
+```
