@@ -1,29 +1,13 @@
 import matplotlib
 from matplotlib.colors import LinearSegmentedColormap
-import numpy as np
 
 
 LondonCalling_ = {'cycle':["#343530", "#d67892", "#c0b7b0", "#018c51"], 'cmap':['#343530', '#d8d4cb']}
 Antisocialites_ = {'cycle':["#1b201c", "#d44f2c", "#f6d339", "#4855a4", "#5d7661", "#d4e0ec"], 'cmap':['#d4e0ec', '#faf0e6', '#d44f2c']}
 RhumbLine_ = {'cycle':["#31343b", "#579eb2", "#8f8c7b", "#e7a834", "#256c82", "#e9ddb7"], 'cmap':['#579eb2', '#e9ddb7', '#e7a834']}
+Matangi_ = {'cycle':["#491d32", "#e72526", "#01aaa4", "#76233a"], 'cmap':["#01aaa4", "#505e47", "#e72526"]}
 
-palettes = {'name':['LondonCalling', 'Antisocialites', 'Rhumbline'], 'palette':[LondonCalling_, Antisocialites_, RhumbLine_], 'ncolors': np.array([4, 6, 6]), 'maptype':['sequential', 'diverging', 'diverging']}
-
-
-global LondonCalling
-global LondonCalling_r
-LondonCalling = LinearSegmentedColormap.from_list("LondonCalling", LondonCalling_['cmap'])
-LondonCalling_r = LinearSegmentedColormap.from_list("LondonCalling_r", LondonCalling_['cmap'][::-1])
-
-global Antisocialites
-global Antisocialites_r
-Antisocialites = LinearSegmentedColormap.from_list("Antisocialites", Antisocialites_['cmap'])
-Antisocialites_r = LinearSegmentedColormap.from_list("Antisocialites_r", Antisocialites_['cmap'][::-1])
-
-global RhumbLine
-global RhumbLine_r
-RhumbLine = LinearSegmentedColormap.from_list("RhumbLine", RhumbLine_['cmap'])
-RhumbLine_r = LinearSegmentedColormap.from_list("RhumbLine_r", RhumbLine_['cmap'][::-1])
+palettes = {'name':['LondonCalling', 'Antisocialites', 'Rhumbline', 'Matangi'], 'palette':[LondonCalling_, Antisocialites_, RhumbLine_, Matangi_], 'ncolors': [4, 6, 6, 4], 'maptype':['sequential', 'diverging', 'diverging', 'diverging']}
 
 ##########
 # * * * *
@@ -32,6 +16,14 @@ RhumbLine_r = LinearSegmentedColormap.from_list("RhumbLine_r", RhumbLine_['cmap'
 def list_palettes(mincolors = False, maptype = False, verbose = False):
 	"""
 	List all available palettes by name. Optionally filter for color cycle and colormap properties.
+
+	Parameters:
+		mincolors (int): Minimum number of colors in color cycle. Use this to filter the available palettes. Default is no minimum.
+		maptype (str): Either "sequential" or "diverging". Use this to filter the available palettes. Default is no preference for colormap type.
+		verbose (bool): Default is False. Enables printing of additional information.
+
+	Returns:
+		The list of available palettes (that match search criteria).
 	"""
 	
 	if (not mincolors) & (not maptype):
@@ -98,40 +90,66 @@ def list_palettes(mincolors = False, maptype = False, verbose = False):
 
 
 
-def set_default(palette, verbose = False):
+def set_default(palette, verbose = False, reverse_cmap = False):
+	"""
+	Set palette as default colormap and color cycle.
+
+	Parameters:
+		palette (str): Name of palette to set as default.
+		verbose (bool): Default is False. Enables printing of additional information about the color cycle.
+		reverse_cmap (bool/str): Default is False. To reverse the colormap, use the keyword argument reverse_cmap = True or just use a string -- e.g., set_default('LondonCalling', 'reverse').
+	"""
 
 	if palette == 'LondonCalling':
-		global LondonCalling
-		global LondonCalling_r
 		matplotlib.rcParams['axes.prop_cycle'] = matplotlib.cycler(color=LondonCalling_['cycle']) 
 		LondonCalling = LinearSegmentedColormap.from_list("LondonCalling", LondonCalling_['cmap'])
 		LondonCalling_r = LinearSegmentedColormap.from_list("LondonCalling_r", LondonCalling_['cmap'][::-1])
-		matplotlib.rcParams['image.cmap'] = LondonCalling
+		if not reverse_cmap:
+			matplotlib.rcParams['image.cmap'] = LondonCalling
+		if reverse_cmap:
+			matplotlib.rcParams['image.cmap'] = LondonCalling_r
 		if verbose:
 			print("Cycled colors in %s are: "%(palette) + LondonCalling_['cycle'].values)
 
 	if palette == 'Antisocialites':
-		global Antisocialites
-		global Antisocialites_r
 		matplotlib.rcParams['axes.prop_cycle'] = matplotlib.cycler(color=Antisocialites_['cycle']) 
 		Antisocialites = LinearSegmentedColormap.from_list("Antisocialites", Antisocialites_['cmap'])
 		Antisocialites_r = LinearSegmentedColormap.from_list("Antisocialites_r", Antisocialites_['cmap'][::-1])
-		matplotlib.rcParams['image.cmap'] = Antisocialites
+		if not reverse_cmap:
+			matplotlib.rcParams['image.cmap'] = Antisocialites
+		if reverse_cmap:
+			matplotlib.rcParams['image.cmap'] = Antisocialites_r
 		if verbose:
 			print("Cycled colors in %s are: "%(palette) + Antisocialites_['cycle'].values)
 
 	if palette == 'RhumbLine':
-		global RhumbLine
-		global RhumbLine_r
 		matplotlib.rcParams['axes.prop_cycle'] = matplotlib.cycler(color=RhumbLine_['cycle'])
 		RhumbLine = LinearSegmentedColormap.from_list("RhumbLine", RhumbLine_['cmap'])
 		RhumbLine_r = LinearSegmentedColormap.from_list("RhumbLine_r", RhumbLine_['cmap'][::-1])
-		matplotlib.rcParams['image.cmap'] = RhumbLine
+		if not reverse_cmap:
+			matplotlib.rcParams['image.cmap'] = RhumbLine
+		if reverse_cmap:
+			matplotlib.rcParams['image.cmap'] = RhumbLine_r
 		if verbose:
 			print("Cycled colors in %s are: "%(palette) + RhumbLine_['cycle'].values)
 
+	if palette == 'Matangi':
+		matplotlib.rcParams['axes.prop_cycle'] = matplotlib.cycler(color=Matangi_['cycle'])
+		Matangi = LinearSegmentedColormap.from_list("Matangi", Matangi_['cmap'])
+		Matangi_r = LinearSegmentedColormap.from_list("Matangi_r", Matangi_['cmap'][::-1])
+		matplotlib.rcParams['image.cmap'] = Matangi
+		if verbose:
+			print("Cycled colors in %s are: "%(palette) + Matangi_['cycle'].values)
+
 
 def set_default_cmap(palette, reverse_cmap = False):
+	"""
+	Set palette as default colormap.
+
+	Parameters:
+			palette (str): Name of palette to set as default.
+			reverse_cmap (bool/str): Default is False. To reverse the colormap, use the keyword argument reverse_cmap = True or just use a string -- e.g., set_default('LondonCalling', 'reverse').
+	"""
 
 	if palette == 'LondonCalling':
 		LondonCalling = LinearSegmentedColormap.from_list("LondonCalling", LondonCalling_['cmap'])
@@ -148,6 +166,7 @@ def set_default_cmap(palette, reverse_cmap = False):
 			matplotlib.rcParams['image.cmap'] = Antisocialites
 		if reverse_cmap:
 			matplotlib.rcParams['image.cmap'] = Antisocialites_r
+
 	if palette == 'RhumbLine':
 		RhumbLine = LinearSegmentedColormap.from_list("RhumbLine", RhumbLine_['cmap'])
 		RhumbLine_r = LinearSegmentedColormap.from_list("RhumbLine_r", RhumbLine_['cmap'][::-1])
@@ -156,8 +175,23 @@ def set_default_cmap(palette, reverse_cmap = False):
 		if reverse_cmap:
 			matplotlib.rcParams['image.cmap'] = RhumbLine_r
 
+	if palette == 'Matangi':
+		Matangi = LinearSegmentedColormap.from_list("Matangi", Matangi_['cmap'])
+		Matangi_r = LinearSegmentedColormap.from_list("Matangi_r", Matangi_['cmap'][::-1])
+		if not reverse_cmap:
+			matplotlib.rcParams['image.cmap'] = Matangi
+		if reverse_cmap:
+			matplotlib.rcParams['image.cmap'] = Matangi_r
+
 
 def set_default_ccycle(palette, verbose = False):
+	"""
+	Set palette as default color cycle.
+
+	Parameters:
+		palette (str): Name of palette to set as default.
+		verbose (bool): Default is False. Enables printing of additional information about the color cycle.
+	"""
 
 	# matplotlib.rcParams['axes.prop_cycle'] = matplotlib.cycler(color=palettes['palette'][palettes['name'] == palette]['cycle']) 
 	# if verbose:
@@ -178,30 +212,19 @@ def set_default_ccycle(palette, verbose = False):
 		if verbose:
 			print("Cycled colors in %s are: "%(palette) + RhumbLine_['cycle'].values)
 
+	if palette == 'Matangi':
+		matplotlib.rcParams['axes.prop_cycle'] = matplotlib.cycler(color=Matangi_['cycle'])
+		if verbose:
+			print("Cycled colors in %s are: "%(palette) + Matangi_['cycle'].values)
+
 
 
 def return_colors(palette):
+	"""
+	Return colors in
+
+	"""
 
 	return palettes['palette'][palettes['name'] == palette]['cycle']
-
-def add_cmaps(cmap = 'all'):
-	## this one doesn't work, why? global variables not defined??
-
-	if cmap == 'all':
-		global LondonCalling
-		global LondonCalling_r
-		LondonCalling = LinearSegmentedColormap.from_list("LondonCalling", LondonCalling_['cmap'])
-		LondonCalling_r = LinearSegmentedColormap.from_list("LondonCalling_r", LondonCalling_['cmap'][::-1])
-
-		global Antisocialites
-		global Antisocialites_r
-		Antisocialites = LinearSegmentedColormap.from_list("Antisocialites", Antisocialites_['cmap'])
-		Antisocialites_r = LinearSegmentedColormap.from_list("Antisocialites_r", Antisocialites_['cmap'][::-1])
-
-		global RhumbLine
-		global RhumbLine_r
-		RhumbLine = LinearSegmentedColormap.from_list("RhumbLine", RhumbLine_['cmap'])
-		RhumbLine_r = LinearSegmentedColormap.from_list("RhumbLine_r", RhumbLine_['cmap'][::-1])
-
 
 
