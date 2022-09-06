@@ -34,3 +34,41 @@ The palette options (to now) are:
 
 Additional palettes will be added moving forward. Is there a specific album you want considered for a future palette? Please open an issue with the name of the album and artist and an image of the album cover.
 
+***
+# How to use `albumpl`:
+### Some quick recipes -- only dependency is `matplotlib`
+
+- **To list all palettes and their properties:**
+```python
+from albumpl.palette import list_palettes
+
+list_palettes()
+```
+*You can also filter for number of colors in the color cycle or type of colormap (sequential/diverging) with the arguments `mincolors` and `maptype`.*
+
+- **To set palette as default for both color cycle *and* colormap:**
+```python
+from albumpl.palette import set_default
+
+set_default('LondonCalling')
+```
+
+- **To set a palette as default for color cycle *or* colormap:**
+```python
+from alumpl.palette import set_default_ccyle or set_default_cmap
+
+set_default_ccyle('Antisocialites')
+```
+*or*
+```python
+set_default_cmap('RhumbLine')
+```
+
+- **To access colormaps without setting them as default:**
+```python
+import matplotlib.pyplot as plt
+from albumpl.cmap import * #yes, this is bad practice, but easiest in this case!
+
+plt.imshow(image, cmap = Matangi()
+```
+*To reverse the colormap, use the argument `reverse_cmap = True` or just feed the colormap the string "reverse" or "_r".*
