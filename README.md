@@ -31,6 +31,9 @@ The palette options (to now) are:
 4. __Matangi__ inspired by M.I.A. - _Matangi_
 ![Matangi_summary](https://user-images.githubusercontent.com/29441772/188256902-6fa7b458-1cb5-4bd6-b4ef-9299ef1097ad.png)
 
+5. __MellonCollie__ inspired by the Smashing Pumpkins - _Mellon Collie and the Infinite Sadness (2012 Deluxe Edition cover)_
+![MellonCollie_summary](https://user-images.githubusercontent.com/29441772/188669272-5d8ce860-5c04-46a2-b38c-b267dec49ec4.png)
+
 
 Additional palettes will be added moving forward. Is there a specific album you want considered for a future palette? Please open an issue with the name of the album and artist and an image of the album cover.
 
@@ -77,5 +80,5 @@ plt.imshow(image, cmap = Matangi())
 ```python
 from albumpl.palette import return_colors
 
-return_colors('Antisocialites')
+return_colors('MellonCollie')
 ```
