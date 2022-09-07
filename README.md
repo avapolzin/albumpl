@@ -33,7 +33,6 @@ The palette options (to now) are:
 
 5. __MellonCollie__ inspired by the Smashing Pumpkins - _Mellon Collie and the Infinite Sadness (2012 Deluxe Edition)_
 ![MellonCollie_summary](https://user-images.githubusercontent.com/29441772/188669272-5d8ce860-5c04-46a2-b38c-b267dec49ec4.png)
-![MellonCollie_summary](https://user-images.githubusercontent.com/29441772/188831046-201075d0-7b1a-4712-a5c7-21ab93f4f725.png)
 
 
 Additional palettes will be added moving forward. Is there a specific album you want considered for a future palette? Please open an issue with the name of the album and artist and an image of the album cover.
