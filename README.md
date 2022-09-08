@@ -36,6 +36,9 @@ The palette options (to now) are:
 ![MellonCollie_summary](https://user-images.githubusercontent.com/29441772/188669272-5d8ce860-5c04-46a2-b38c-b267dec49ec4.png)
 ![MellonCollie_summary](https://user-images.githubusercontent.com/29441772/188832959-3bfdc247-c103-4891-9009-1fcdcdb4723d.png)
 
+6. __Yoshimi__ inspired by the Flaming Lips - _Yoshimi Battles the Pink Robots_
+![Yoshimi_summary](https://user-images.githubusercontent.com/29441772/189017212-7bed5791-cd85-4a2f-b699-5cbe4444fb06.png)
+
 
 Additional palettes will be added moving forward. Is there a specific album you want considered for a future palette? Please open an issue with the name of the album and artist and an image of the album cover.
 
