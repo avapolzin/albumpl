@@ -29,7 +29,6 @@ The palette options (to now) are:
 ![RhumbLine_summary](https://user-images.githubusercontent.com/29441772/149860002-220f06c8-ed04-4a83-8c00-36e3e424af54.png)
 
 4. __Matangi__ inspired by M.I.A. - _Matangi_
-![Matangi_summary](https://user-images.githubusercontent.com/29441772/188256902-6fa7b458-1cb5-4bd6-b4ef-9299ef1097ad.png)
 ![Matangi_summary](https://user-images.githubusercontent.com/29441772/188832951-59b23143-d6fc-4e10-9f2a-2d2aaa967ce1.png)
 
 5. __MellonCollie__ inspired by the Smashing Pumpkins - _Mellon Collie and the Infinite Sadness (2012 Deluxe Edition)_
