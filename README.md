@@ -40,9 +40,6 @@ The palette options (to now) are:
 7. _Figure8_ inspired by Elliott Smith - _Figure 8_
 ![Figure8_summary](https://user-images.githubusercontent.com/29441772/189272658-e3becbef-50d6-4c73-b95a-5272dc8ddf86.png)
 
-8. __Dreamland__ inspired by Glass Animals - _Dreamland_
-![Dreamland_summary](https://user-images.githubusercontent.com/29441772/189263297-7fa4f2f4-572d-4083-ac73-1eda1b22e94b.png)
-
 
 Additional palettes will be added moving forward. Is there a specific album you want considered for a future palette? Please open an issue with the name of the album and artist and an image of the album cover.
 
