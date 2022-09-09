@@ -37,7 +37,10 @@ The palette options (to now) are:
 6. __Yoshimi__ inspired by the Flaming Lips - _Yoshimi Battles the Pink Robots_
 ![Yoshimi_summary](https://user-images.githubusercontent.com/29441772/189017212-7bed5791-cd85-4a2f-b699-5cbe4444fb06.png)
 
-7. __Dreamland__ inspired by Glass Animals - _Dreamland_
+7. _Figure8_ inspired by Elliott Smith - _Figure 8_
+![Figure8_summary](https://user-images.githubusercontent.com/29441772/189272658-e3becbef-50d6-4c73-b95a-5272dc8ddf86.png)
+
+8. __Dreamland__ inspired by Glass Animals - _Dreamland_
 ![Dreamland_summary](https://user-images.githubusercontent.com/29441772/189263297-7fa4f2f4-572d-4083-ac73-1eda1b22e94b.png)
 
 
