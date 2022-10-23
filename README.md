@@ -43,6 +43,8 @@ The palette options (to now) are:
 8. __LiveThroughThis__ inspired by Hole - _Live Through This_
 ![LiveThroughThis_summary](https://user-images.githubusercontent.com/29441772/196010279-f4d8175c-2012-4f1e-9c78-d8b4d17fc2b0.png)
 
+9. __Post__ inspired by Björk - _Post_
+![Post_summary](https://user-images.githubusercontent.com/29441772/197367476-af7bc3d3-4286-41d1-966e-bebc6c51f30b.png)
 
 Additional palettes will be added moving forward. Is there a specific album you want considered for a future palette? Please open an issue with the name of the album and artist and an image of the album cover.
 
