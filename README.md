@@ -46,7 +46,11 @@ The palette options (to now) are:
 9. __Post__ inspired by Björk - _Post_
 ![Post_summary](https://user-images.githubusercontent.com/29441772/197367476-af7bc3d3-4286-41d1-966e-bebc6c51f30b.png)
 
-Additional palettes will be added moving forward. Is there a specific album you want considered for a future palette? Please open an issue with the name of the album and artist and an image of the album cover.
+For those wishing to emulate albums that are less well-suited to palettes than colormaps alone, there are also the following colormap-only options:
+
+
+
+Additional palettes and colormaps will be added moving forward. Is there a specific album you want considered for a future palette? Please open an issue with the name of the album and artist and an image of the album cover.
 
 ***
 # How to use `albumpl`:
