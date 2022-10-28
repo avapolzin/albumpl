@@ -72,7 +72,7 @@ set_default('LondonCalling')
 
 - **To set a palette as default for color cycle *or* colormap:**
 ```python
-from alumpl.palette import set_default_ccyle or set_default_cmap
+from alumpl.palette import set_default_ccyle, set_default_cmap
 
 set_default_ccyle('Antisocialites')
 ```
@@ -106,5 +106,5 @@ return_colors('Figure8')
 For ease, you may also decide to register these colormaps, effectively adding them to your current installation of `matplotlib`. You can find an up-to-date version of those instructions [here](https://matplotlib.org/stable/api/cm_api.html).
 
 ***
-These palettes and colormaps are designed with a focus on remaining faithful to the appearance of the album covers instead of emphasizing perceptual uniformity. Following `matplotlib`, the lightness of each colormap as a function of index is shown below.
+These palettes and colormaps are designed with a focus on remaining faithful to the appearance of the album covers instead of emphasizing perceptual uniformity. Most are still pretty good in this regard, but, just for everyone's peace of mind, following `matplotlib`, the lightness of each colormap as a function of index is shown below.
 
