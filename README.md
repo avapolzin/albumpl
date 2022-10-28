@@ -46,6 +46,9 @@ The palette options (to now) are:
 9. __Post__ inspired by Björk - _Post_
 ![Post_summary](https://user-images.githubusercontent.com/29441772/197367476-af7bc3d3-4286-41d1-966e-bebc6c51f30b.png)
 
+10. __VampireWeekend__ inspired by Vampire Weekend's self-titled debut
+![VampireWeekend_summary](https://user-images.githubusercontent.com/29441772/198497977-c25ac8aa-2b1c-4789-802f-45f7b412d7b4.png)
+
 For those wishing to emulate albums that are less well-suited to palettes than colormaps alone, there are also the following colormap-only options:
 
 
