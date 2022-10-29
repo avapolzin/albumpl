@@ -49,6 +49,9 @@ The palette options (to now) are:
 10. __VampireWeekend__ inspired by Vampire Weekend's self-titled debut
 ![VampireWeekend_summary](https://user-images.githubusercontent.com/29441772/198497977-c25ac8aa-2b1c-4789-802f-45f7b412d7b4.png)
 
+11. __CopperBlue__ inspired by Sugar -- _Copper Blue_
+![CopperBlue_summary](https://user-images.githubusercontent.com/29441772/198848865-a184aaf1-17fb-4de1-9887-e41edb12d016.png)
+
 Additional palettes and colormaps will be added moving forward. Is there a specific album you want considered for a future palette? Please open an issue with the name of the album and artist and an image of the album cover.
 
 ***
