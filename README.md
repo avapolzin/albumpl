@@ -54,6 +54,10 @@ The palette options (to now) are:
 
 Additional palettes and colormaps will be added moving forward. Is there a specific album you want considered for a future palette? Please open an issue with the name of the album and artist and an image of the album cover.
 
+<sup><sub>About the sample images: For sequential colormaps, the sample image is photometric _HST_ data of the dwarf galaxy [COSMOS-dw1](https://ui.adsabs.harvard.edu/abs/2021ApJ...914L..23P/abstract) in F814W. The sample image for diverging colormaps is an HI velocity map of the galaxy [M33 from GALFA-HI](https://ui.adsabs.harvard.edu/abs/2009ApJ...703.1486P/abstract). </sub></sup>
+
+<sup><sub>And, though it should go without saying, I'll add: use of an artist's album cover to make a palette is not an endorsement of the artist or their (broadcasted) personal views.</sub></sup>
+
 ***
 # How to use `albumpl`:
 ### Some quick recipes.
@@ -111,7 +115,3 @@ For ease, you may also decide to register these colormaps, effectively adding th
 ***
 These palettes and colormaps are designed with a focus on remaining faithful to the appearance of the album covers instead of emphasizing perceptual uniformity. Most are still pretty good in this regard, but, just for everyone's peace of mind, following `matplotlib`, the lightness of each colormap as a function of index is shown below.
 
-
-<sup><sub>About the sample images: For sequential colormaps, the sample image is photometric _HST_ data of the dwarf galaxy [COSMOS-dw1](https://ui.adsabs.harvard.edu/abs/2021ApJ...914L..23P/abstract) in F814W. The sample image for diverging colormaps is an HI velocity map of the galaxy [M33 from GALFA-HI](https://ui.adsabs.harvard.edu/abs/2009ApJ...703.1486P/abstract). </sub></sup>
-
-<sup><sub>And, though it should go without saying, I'll add: use of an artist's album cover to make a palette is not an endorsement of the artist or their (broadcasted) personal views.</sub></sup>
