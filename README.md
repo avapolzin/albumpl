@@ -23,13 +23,13 @@ The palette options (to now) are:
 ![LondonCalling_summary](https://user-images.githubusercontent.com/29441772/149859998-c0d2990b-123f-40f2-90ca-644cfaae0cdf.png)
 
 2. __Antisocialites__ inspired by Alvvays - _Antisocialites_
-![Antisocialites_summary](https://user-images.githubusercontent.com/29441772/149859986-f0f7c779-398e-43ab-996a-245179045783.png)
+![Antisocialites_summary](https://user-images.githubusercontent.com/29441772/201570983-a9202523-70a0-4b48-a80e-48b5ca450a22.png)
 
 3. __RhumbLine__ inspired by Ra Ra Riot - _The Rhumb Line_
-![RhumbLine_summary](https://user-images.githubusercontent.com/29441772/149860002-220f06c8-ed04-4a83-8c00-36e3e424af54.png)
+![RhumbLine_summary](https://user-images.githubusercontent.com/29441772/201570997-f990c303-81e9-4213-994e-ef585984994a.png)
 
 4. __Matangi__ inspired by M.I.A. - _Matangi_
-![Matangi_summary](https://user-images.githubusercontent.com/29441772/188832951-59b23143-d6fc-4e10-9f2a-2d2aaa967ce1.png)
+![Matangi_summary](https://user-images.githubusercontent.com/29441772/201571008-01768d17-926a-488c-a7f8-20f4054da5d7.png)
 
 5. __MellonCollie__ inspired by the Smashing Pumpkins - _Mellon Collie and the Infinite Sadness (2012 Deluxe Edition)_
 ![MellonCollie_summary](https://user-images.githubusercontent.com/29441772/188832959-3bfdc247-c103-4891-9009-1fcdcdb4723d.png)
@@ -44,13 +44,13 @@ The palette options (to now) are:
 ![LiveThroughThis_summary](https://user-images.githubusercontent.com/29441772/196010279-f4d8175c-2012-4f1e-9c78-d8b4d17fc2b0.png)
 
 9. __Post__ inspired by Björk - _Post_
-![Post_summary](https://user-images.githubusercontent.com/29441772/197367476-af7bc3d3-4286-41d1-966e-bebc6c51f30b.png)
+![Post_summary](https://user-images.githubusercontent.com/29441772/201571034-fee299b5-e015-453b-aafe-c3b27b157707.png)
 
 10. __VampireWeekend__ inspired by Vampire Weekend's self-titled debut
-![VampireWeekend_summary](https://user-images.githubusercontent.com/29441772/198497977-c25ac8aa-2b1c-4789-802f-45f7b412d7b4.png)
+![VampireWeekend_summary](https://user-images.githubusercontent.com/29441772/201571047-03fca9cf-9132-442f-b11c-4e34b2d58ff1.png)
 
 11. __CopperBlue__ inspired by Sugar -- _Copper Blue_
-![CopperBlue_summary](https://user-images.githubusercontent.com/29441772/198848865-a184aaf1-17fb-4de1-9887-e41edb12d016.png)
+![CopperBlue_summary](https://user-images.githubusercontent.com/29441772/201571093-3252c671-ec01-416e-b0b2-0fb5be0d1e89.png)
 
 Additional palettes and colormaps will be added moving forward. Is there a specific album you want considered for a future palette? Please open an issue with the name of the album and artist and an image of the album cover.
 
