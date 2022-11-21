@@ -31,7 +31,7 @@ The palette options (to now) are:
 4. __Matangi__ inspired by M.I.A. - _Matangi_
 ![Matangi_summary](https://user-images.githubusercontent.com/29441772/201571008-01768d17-926a-488c-a7f8-20f4054da5d7.png)
 
-5. __MellonCollie__ inspired by the Smashing Pumpkins - _Mellon Collie and the Infinite Sadness (2012 Deluxe Edition)_
+5. __MellonCollie2012__ inspired by the Smashing Pumpkins - _Mellon Collie and the Infinite Sadness (2012 Deluxe Edition)_
 ![MellonCollie_summary](https://user-images.githubusercontent.com/29441772/188832959-3bfdc247-c103-4891-9009-1fcdcdb4723d.png)
 
 6. __Yoshimi__ inspired by the Flaming Lips - _Yoshimi Battles the Pink Robots_
