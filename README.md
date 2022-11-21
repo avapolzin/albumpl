@@ -103,11 +103,15 @@ plt.imshow(image, cmap = MellonCollie(reverse_cmap = True))
 ```python
 plt.imshow(image, cmap = Yoshimi('reverse'))
 ```
+*or*
+```python
+plt.imshow(image, cmap = Figure8('_r'))
+```
 - **To access the colors in a color cycle/palette without setting a default:**
 ```python
 from albumpl.palette import return_colors
 
-return_colors('Figure8')
+return_colors('LiveThroughThis')
 ```
 
 For ease, you may also decide to register these colormaps, effectively adding them to your current installation of `matplotlib`. You can find an up-to-date version of those instructions [here](https://matplotlib.org/stable/api/cm_api.html).
