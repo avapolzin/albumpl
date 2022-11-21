@@ -31,25 +31,27 @@ The palette options (to now) are:
 4. __Matangi__ inspired by M.I.A. - _Matangi_
 ![Matangi_summary](https://user-images.githubusercontent.com/29441772/201571008-01768d17-926a-488c-a7f8-20f4054da5d7.png)
 
-5. __MellonCollie2012__ inspired by the Smashing Pumpkins - _Mellon Collie and the Infinite Sadness (2012 Deluxe Edition)_
+5. __MellonCollie__ inspired by the Smashing Pumpkins - _Mellon Collie and the Infinite Sadness_
+
+6. __MellonCollie2012__ inspired by the Smashing Pumpkins - _Mellon Collie and the Infinite Sadness (2012 Deluxe Edition)_
 ![MellonCollie_summary](https://user-images.githubusercontent.com/29441772/188832959-3bfdc247-c103-4891-9009-1fcdcdb4723d.png)
 
-6. __Yoshimi__ inspired by the Flaming Lips - _Yoshimi Battles the Pink Robots_
+7. __Yoshimi__ inspired by the Flaming Lips - _Yoshimi Battles the Pink Robots_
 ![Yoshimi_summary](https://user-images.githubusercontent.com/29441772/189017212-7bed5791-cd85-4a2f-b699-5cbe4444fb06.png)
 
-7. __Figure8__ inspired by Elliott Smith - _Figure 8_
+8. __Figure8__ inspired by Elliott Smith - _Figure 8_
 ![Figure8_summary](https://user-images.githubusercontent.com/29441772/189272658-e3becbef-50d6-4c73-b95a-5272dc8ddf86.png)
 
-8. __LiveThroughThis__ inspired by Hole - _Live Through This_
+9. __LiveThroughThis__ inspired by Hole - _Live Through This_
 ![LiveThroughThis_summary](https://user-images.githubusercontent.com/29441772/196010279-f4d8175c-2012-4f1e-9c78-d8b4d17fc2b0.png)
 
-9. __Post__ inspired by Björk - _Post_
+10. __Post__ inspired by Björk - _Post_
 ![Post_summary](https://user-images.githubusercontent.com/29441772/201571034-fee299b5-e015-453b-aafe-c3b27b157707.png)
 
-10. __VampireWeekend__ inspired by Vampire Weekend's self-titled debut
+11. __VampireWeekend__ inspired by Vampire Weekend's self-titled debut
 ![VampireWeekend_summary](https://user-images.githubusercontent.com/29441772/201571047-03fca9cf-9132-442f-b11c-4e34b2d58ff1.png)
 
-11. __CopperBlue__ inspired by Sugar -- _Copper Blue_
+12. __CopperBlue__ inspired by Sugar - _Copper Blue_
 ![CopperBlue_summary](https://user-images.githubusercontent.com/29441772/201571093-3252c671-ec01-416e-b0b2-0fb5be0d1e89.png)
 
 Additional palettes and colormaps will be added moving forward. Is there a specific album you want considered for a future palette? Please open an issue with the name of the album and artist and an image of the album cover.
