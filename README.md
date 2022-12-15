@@ -5,9 +5,9 @@ To install:
 ```bash
 cd ~
 
-git clone git@github.com:avapolzin/albuMPL-palette.git
+git clone git@github.com:avapolzin/albumpl.git
 
-cd albuMPL-palette
+cd albumpl
 
 sudo python3 setupy.py install
 
