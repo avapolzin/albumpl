@@ -1,4 +1,4 @@
-# `albumpl `
+# `albumpl`
 Custom matplotlib color palettes based on album covers.
 
 To install:
