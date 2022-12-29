@@ -58,7 +58,8 @@ There are also a handful of alternative colormaps included in `albumpl`, which a
 
 These standalone colormaps (named for songs on the album that inspired them) are:
 
-![Winter05_summary](https://user-images.githubusercontent.com/29441772/210009045-cb971073-ca8a-4ace-99d3-306dd3ce4a2f.png)
+![Winter05_summary](https://user-images.githubusercontent.com/29441772/210009045-cb971073-ca8a-4ace-99d3-306dd3ce4a2f.png)![Winter05_summary](https://user-images.githubusercontent.com/29441772/210009180-134197bd-f23b-4397-8471-c3796d13df73.png)
+
 
 Additional palettes and colormaps will be added moving forward. Is there a specific album you want considered for a future palette? Please open an issue with the name of the album and artist and an image of the album cover.
 
