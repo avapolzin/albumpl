@@ -54,6 +54,10 @@ The palette options (to now) are:
 12. __CopperBlue__ inspired by Sugar - _Copper Blue_
 ![CopperBlue_summary](https://user-images.githubusercontent.com/29441772/201571093-3252c671-ec01-416e-b0b2-0fb5be0d1e89.png)
 
+13. __Dreamland__ inspired by Glass Animals - _Dreamland_
+![Dreamland_summary](https://user-images.githubusercontent.com/29441772/210105664-3d50f2ab-eee8-40f1-b640-8ff5b7ed6e42.png)
+
+
 There are also a handful of alternative colormaps included in `albumpl`, which are not the default colormap associated with a particular palette, but can be accessed individually in the same way as any other colormap.
 
 These standalone colormaps (named for songs on the album that inspired them) are:
