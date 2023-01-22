@@ -62,6 +62,7 @@ There are also a handful of alternative colormaps included in `albumpl`, which a
 
 These standalone colormaps (named for songs on the album that inspired them) are:
 
+![KokaKola_summary](https://user-images.githubusercontent.com/29441772/213897578-b4b6921e-9e90-40d2-bb1b-9382ad1ea4eb.png)
 ![Winter05_summary](https://user-images.githubusercontent.com/29441772/210009492-2f98280c-4451-4ae7-88f6-a58724e4fa3c.png)
 
 
