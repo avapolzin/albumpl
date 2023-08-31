@@ -58,7 +58,7 @@ The palette options (to now) are:
 13. __Dreamland__ inspired by Glass Animals - _Dreamland_
 ![Dreamland_summary](https://github.com/avapolzin/albumpl/assets/29441772/14e07728-374d-44cc-85ac-c6c4c84b29da)
 
-14. __Garbage__ inspired by their self-titled debut
+14. __Garbage__ inspired by Garbage - _Garbage_
 ![Garbage_summary](https://github.com/avapolzin/albumpl/assets/29441772/d754af41-f976-4198-a1e6-97fc4cac8d81)
 
 
@@ -66,7 +66,7 @@ There are also a handful of alternative colormaps included in `albumpl`, which a
 
 These standalone colormaps (named for songs on the album that inspired them) are:
 
-<img src ="https://user-images.githubusercontent.com/29441772/213897847-131d6c8f-ab4e-4f95-bee7-4cc77fde2ec6.png" width=30%> <img src="https://user-images.githubusercontent.com/29441772/210009492-2f98280c-4451-4ae7-88f6-a58724e4fa3c.png" width=30%>
+<img src ="https://user-images.githubusercontent.com/29441772/213897847-131d6c8f-ab4e-4f95-bee7-4cc77fde2ec6.png" width=30%> <img src="https://user-images.githubusercontent.com/29441772/210009492-2f98280c-4451-4ae7-88f6-a58724e4fa3c.png" width=30%> <img src="https://github.com/avapolzin/albumpl/assets/29441772/118d7146-0d5e-42dc-9228-0bd3beab2307" width=30%>
 
 
 
