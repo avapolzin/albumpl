@@ -66,7 +66,7 @@ There are also a handful of alternative colormaps included in `albumpl`, which a
 
 These standalone colormaps (named for songs on the album that inspired them) are:
 
-<img src ="https://user-images.githubusercontent.com/29441772/213897847-131d6c8f-ab4e-4f95-bee7-4cc77fde2ec6.png" width=10%> !<img src="https://user-images.githubusercontent.com/29441772/210009492-2f98280c-4451-4ae7-88f6-a58724e4fa3c.png" width=100>
+<img src ="https://user-images.githubusercontent.com/29441772/213897847-131d6c8f-ab4e-4f95-bee7-4cc77fde2ec6.png" width=30%> <img src="https://user-images.githubusercontent.com/29441772/210009492-2f98280c-4451-4ae7-88f6-a58724e4fa3c.png" width=30%>
 
 
 
