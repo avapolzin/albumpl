@@ -12,8 +12,12 @@ cd albumpl
 sudo python3 setupy.py install
 
 ````
+or 
+```bash
+pip install albumpl
+```
 
-If you use this package or the scripts in this repository in a publication, please add a footnote linking to https://github.com/avapolzin/albuMPL-palette and consider adding this software to your acknowledgments. (Or if you would like to cite `albumpl`, please email me, and I will ensure there is a citable DOI available.) I'd love to feature plots/figures that make use of these palettes in the wild, so should these palettes be of use, please send me a copy of that figure and/or a link to your paper or presentation and I will share it here.
+If you use this package or the scripts in this repository in a publication, please add a footnote linking to https://github.com/avapolzin/albuMPL-palette and/or consider adding this software to your acknowledgments. If you would like to cite `albumpl`, please use the Zenodo DOI linked here. I'd love to feature plots/figures that make use of these palettes in the wild, so should these palettes be of use, please send me a copy of that figure and/or a link to your paper or presentation and I will share it here.
 
 Each of the included palettes has been checked with [COBLIS](https://www.color-blindness.com/coblis-color-blindness-simulator/), and should be legible for individuals with most common forms of color blindness. Best, though, is to check your specific figures' readability, too.
 
@@ -60,6 +64,9 @@ The palette options (to now) are:
 
 14. __Garbage__ inspired by Garbage - _Garbage_
 ![Garbage_summary](https://github.com/avapolzin/albumpl/assets/29441772/d754af41-f976-4198-a1e6-97fc4cac8d81)
+
+15. __BlameItOnGravity__ inspired by Old 97's - _Blame It On Gravity_
+![BlameItOnGravity_summary](https://github.com/avapolzin/albumpl/assets/29441772/c0b3c4ba-4380-47c7-ae82-fe94442f2dd2)
 
 
 There are also a handful of alternative colormaps included in `albumpl`, which are not the default colormap associated with a particular palette, but can be accessed individually in the same way as any other colormap.
