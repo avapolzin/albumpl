@@ -58,6 +58,9 @@ The palette options (to now) are:
 13. __Dreamland__ inspired by Glass Animals - _Dreamland_
 ![Dreamland_summary](https://github.com/avapolzin/albumpl/assets/29441772/14e07728-374d-44cc-85ac-c6c4c84b29da)
 
+14. __Garbage__ inspired by their self-titled debut
+![Garbage_summary](https://github.com/avapolzin/albumpl/assets/29441772/d754af41-f976-4198-a1e6-97fc4cac8d81)
+
 
 There are also a handful of alternative colormaps included in `albumpl`, which are not the default colormap associated with a particular palette, but can be accessed individually in the same way as any other colormap.
 
