@@ -1,4 +1,4 @@
-# `albumpl`
+![MellonCollie2012_summary](https://github.com/avapolzin/albumpl/assets/29441772/99bdddc3-41cc-48f3-b2bc-5688036802c6)# `albumpl`
 Custom matplotlib color palettes based on album covers.
 
 To install:
@@ -20,42 +20,43 @@ Each of the included palettes has been checked with [COBLIS](https://www.color-b
 
 The palette options (to now) are:
 1. __LondonCalling__ inspired by The Clash - _London Calling_ (which, of course, ***technically*** means it was inspired by Elvis Presley's eponymous album)
-![LondonCalling_summary](https://user-images.githubusercontent.com/29441772/149859998-c0d2990b-123f-40f2-90ca-644cfaae0cdf.png)
+![LondonCalling_summary](https://github.com/avapolzin/albumpl/assets/29441772/780dc5a5-1a4f-47cc-9cf1-f2e0aad68a6c)
 
 2. __Antisocialites__ inspired by Alvvays - _Antisocialites_
-![Antisocialites_summary](https://user-images.githubusercontent.com/29441772/201570983-a9202523-70a0-4b48-a80e-48b5ca450a22.png)
+![Antisocialites_summary](https://github.com/avapolzin/albumpl/assets/29441772/79e3f41f-2634-458d-88d0-ce69bb5eae34)
 
 3. __RhumbLine__ inspired by Ra Ra Riot - _The Rhumb Line_
-![RhumbLine_summary](https://user-images.githubusercontent.com/29441772/201570997-f990c303-81e9-4213-994e-ef585984994a.png)
+![RhumbLine_summary](https://github.com/avapolzin/albumpl/assets/29441772/38d0058c-5a89-47dd-887a-92e2cba95765)
 
 4. __Matangi__ inspired by M.I.A. - _Matangi_
-![Matangi_summary](https://user-images.githubusercontent.com/29441772/201571008-01768d17-926a-488c-a7f8-20f4054da5d7.png)
+![Matangi_summary](https://github.com/avapolzin/albumpl/assets/29441772/a2514337-34ce-42f6-bc06-7cb50d9b16f4)
 
 5. __MellonCollie__ inspired by the Smashing Pumpkins - _Mellon Collie and the Infinite Sadness_
+![MellonCollie_summary](https://github.com/avapolzin/albumpl/assets/29441772/762333f5-a749-4a31-8556-c135ce286d78)
 
 6. __MellonCollie2012__ inspired by the Smashing Pumpkins - _Mellon Collie and the Infinite Sadness (2012 Deluxe Edition)_
-![MellonCollie_summary](https://user-images.githubusercontent.com/29441772/188832959-3bfdc247-c103-4891-9009-1fcdcdb4723d.png)
+![MellonCollie2012_summary](https://github.com/avapolzin/albumpl/assets/29441772/2daef05d-9b29-41f3-b7ee-d45ac8da2142)
 
 7. __Yoshimi__ inspired by the Flaming Lips - _Yoshimi Battles the Pink Robots_
-![Yoshimi_summary](https://user-images.githubusercontent.com/29441772/189017212-7bed5791-cd85-4a2f-b699-5cbe4444fb06.png)
+![Yoshimi_summary](https://github.com/avapolzin/albumpl/assets/29441772/f2c3ff06-eaa3-4cd9-aa40-82379451af82)
 
 8. __Figure8__ inspired by Elliott Smith - _Figure 8_
-![Figure8_summary](https://user-images.githubusercontent.com/29441772/189272658-e3becbef-50d6-4c73-b95a-5272dc8ddf86.png)
+![Figure8_summary](https://github.com/avapolzin/albumpl/assets/29441772/dfd75c64-e5ef-4808-b490-55c1b22e1fc0)
 
 9. __LiveThroughThis__ inspired by Hole - _Live Through This_
-![LiveThroughThis_summary](https://user-images.githubusercontent.com/29441772/196010279-f4d8175c-2012-4f1e-9c78-d8b4d17fc2b0.png)
+![LiveThroughThis_summary](https://github.com/avapolzin/albumpl/assets/29441772/e15d78bb-afc8-4099-a92b-9289a07af508)
 
 10. __Post__ inspired by Björk - _Post_
-![Post_summary](https://user-images.githubusercontent.com/29441772/201571034-fee299b5-e015-453b-aafe-c3b27b157707.png)
+![Post_summary](https://github.com/avapolzin/albumpl/assets/29441772/60ebd12f-3a9c-4435-aa57-bcef7a439afa)
 
 11. __VampireWeekend__ inspired by Vampire Weekend's self-titled debut
-![VampireWeekend_summary](https://user-images.githubusercontent.com/29441772/201571047-03fca9cf-9132-442f-b11c-4e34b2d58ff1.png)
+![VampireWeekend_summary](https://github.com/avapolzin/albumpl/assets/29441772/50c3015a-31e6-416a-89ac-c13f4f9ddf08)
 
 12. __CopperBlue__ inspired by Sugar - _Copper Blue_
-![CopperBlue_summary](https://user-images.githubusercontent.com/29441772/201571093-3252c671-ec01-416e-b0b2-0fb5be0d1e89.png)
+![CopperBlue_summary](https://github.com/avapolzin/albumpl/assets/29441772/612794be-43a7-469f-b79b-fcc14ad0093c)
 
 13. __Dreamland__ inspired by Glass Animals - _Dreamland_
-![Dreamland_summary](https://user-images.githubusercontent.com/29441772/210105664-3d50f2ab-eee8-40f1-b640-8ff5b7ed6e42.png)
+![Dreamland_summary](https://github.com/avapolzin/albumpl/assets/29441772/14e07728-374d-44cc-85ac-c6c4c84b29da)
 
 
 There are also a handful of alternative colormaps included in `albumpl`, which are not the default colormap associated with a particular palette, but can be accessed individually in the same way as any other colormap.
