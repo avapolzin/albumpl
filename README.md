@@ -1,4 +1,4 @@
-![MellonCollie2012_summary](https://github.com/avapolzin/albumpl/assets/29441772/99bdddc3-41cc-48f3-b2bc-5688036802c6)# `albumpl`
+# `albumpl`
 Custom matplotlib color palettes based on album covers.
 
 To install:
