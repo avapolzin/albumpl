@@ -146,4 +146,5 @@ For ease, you may also decide to register these colormaps, effectively adding th
 
 ***
 These palettes and colormaps are designed with a focus on remaining faithful to the appearance of the album covers instead of emphasizing perceptual uniformity. Most are still pretty good in this regard, but, just for everyone's peace of mind, following `matplotlib`, the lightness of each colormap as a function of index is shown below.
+![Lightness](https://github.com/avapolzin/albumpl/assets/29441772/417b3957-7c30-4c77-8e40-076673fcd3b0)
 
