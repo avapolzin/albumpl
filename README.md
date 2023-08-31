@@ -68,6 +68,9 @@ The palette options (to now) are:
 15. __BlameItOnGravity__ inspired by Old 97's - _Blame It On Gravity_
 ![BlameItOnGravity_summary](https://github.com/avapolzin/albumpl/assets/29441772/c0b3c4ba-4380-47c7-ae82-fe94442f2dd2)
 
+16. __ChutesTooNarrow__ inspired by the Shins - _Chutes Too Narrow_
+![ChutesTooNarrow_summary](https://github.com/avapolzin/albumpl/assets/29441772/16f284bc-8435-42e8-bdbc-acc948f00a06)
+
 
 There are also a handful of alternative colormaps included in `albumpl`, which are not the default colormap associated with a particular palette, but can be accessed individually in the same way as any other colormap.
 
