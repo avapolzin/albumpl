@@ -76,7 +76,7 @@ There are also a handful of alternative colormaps included in `albumpl`, which a
 
 These standalone colormaps (named for songs on the album that inspired them) are:
 
-<img src ="https://user-images.githubusercontent.com/29441772/213897847-131d6c8f-ab4e-4f95-bee7-4cc77fde2ec6.png" width=30%> <img src="https://user-images.githubusercontent.com/29441772/210009492-2f98280c-4451-4ae7-88f6-a58724e4fa3c.png" width=30%> <img src="https://github.com/avapolzin/albumpl/assets/29441772/118d7146-0d5e-42dc-9228-0bd3beab2307" width=30%>
+<img src ="https://user-images.githubusercontent.com/29441772/213897847-131d6c8f-ab4e-4f95-bee7-4cc77fde2ec6.png" width=30%> <img src="https://github.com/avapolzin/albumpl/assets/29441772/4a389d33-31fb-4362-b6d7-c491a94547a4" width=30%> <img src="https://user-images.githubusercontent.com/29441772/210009492-2f98280c-4451-4ae7-88f6-a58724e4fa3c.png" width=30%> <img src="https://github.com/avapolzin/albumpl/assets/29441772/118d7146-0d5e-42dc-9228-0bd3beab2307" width=30%> <img src="https://github.com/avapolzin/albumpl/assets/29441772/bd113ead-46b2-480b-b6b0-574370a169c0" width=30%>
 
 
 
@@ -145,6 +145,5 @@ return_colors('LiveThroughThis')
 For ease, you may also decide to register these colormaps, effectively adding them to your current installation of `matplotlib`. You can find an up-to-date version of those instructions [here](https://matplotlib.org/stable/api/cm_api.html).
 
 ***
-These palettes and colormaps are designed with a focus on remaining faithful to the appearance of the album covers instead of emphasizing perceptual uniformity. Most are still pretty good in this regard, but, just for everyone's peace of mind, following `matplotlib`, the lightness of each colormap as a function of index is shown below.
-![Lightness](https://github.com/avapolzin/albumpl/assets/29441772/417b3957-7c30-4c77-8e40-076673fcd3b0)
+These palettes and colormaps are designed with a focus on remaining faithful to the appearance of the album covers instead of emphasizing perceptual uniformity. Most are still pretty good in this regard, but, just for everyone's peace of mind, following `matplotlib`, the lightness of each colormap as a function of index is shown below (all sequential maps are shown dark-to-light for easier comparison).
 
