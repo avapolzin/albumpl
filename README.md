@@ -21,9 +21,9 @@ pip install albumpl
 
 If you use this package or the scripts in this repository in a publication, please add a footnote linking to https://github.com/avapolzin/albuMPL-palette and/or consider adding this software to your acknowledgments. If you would like to cite `albumpl`, please use the Zenodo DOI linked here. 
 ```tex
-@software{avapolzin_2023_8307551,
+@software{ava_polzin_2023_8307551,
   author       = {Ava Polzin},
-  title        = {avapolzin/albumpl: v0.2.0},
+  title        = {albumpl: v0.2.0},
   month        = sep,
   year         = 2023,
   publisher    = {Zenodo},
