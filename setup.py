@@ -15,5 +15,5 @@ setuptools.setup(
 		"Operating System :: OS Independent",
 		"Programming Language :: Python"],
 	python_requires = ">=3",
-	install_requires = ["matplotlib", "numpy"]
+	install_requires = ["matplotlib"]
 )
