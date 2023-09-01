@@ -7,7 +7,7 @@ setuptools.setup(
 	author_email = "apolzin@uchicago.edu",
 	description = "Matplotlib color palettes based on album covers.",
 	packages = ["albumpl", "albumpl/palette", "albumpl/cmap"],
-	url = "https://github.com/avapolzin/albuMPL-palette",
+	url = "https://github.com/avapolzin/albumpl",
 	license = "MIT",
 	classifiers = [
 		"Development Status :: 4 - Beta",
