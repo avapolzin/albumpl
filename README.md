@@ -23,7 +23,7 @@ If you use this package or the scripts in this repository in a publication, plea
 ```tex
 @software{ava_polzin_2023_8307551,
   author       = {Ava Polzin},
-  title        = {albumpl: v0.2.0},
+  title        = {albumpl},
   month        = sep,
   year         = 2023,
   publisher    = {Zenodo},
