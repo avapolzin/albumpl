@@ -1,4 +1,5 @@
 import matplotlib
+import matplotlib.pyplot as plt
 from matplotlib.colors import LinearSegmentedColormap
 
 maps = {}
@@ -38,15 +39,51 @@ def get_map(palette, reverse_cmap):
 	"""
 
 	if not reverse_cmap:
-		cmap = LinearSegmentedColormap.from_list(palette, covers[palette]['cmap'])
+		cmap = LinearSegmentedColormap.from_list(palette, maps[palette])
 	if reverse_cmap:
-		cmap = LinearSegmentedColormap.from_list(palette+"_r", covers[palette]['cmap'][::-1])
+		cmap = LinearSegmentedColormap.from_list(palette+"_r", maps[palette][::-1])
 	return cmap
 
 
 ##########
 # * * * *
 ##########
+
+def register_all():
+	"""
+	Register all of the colormaps.
+	"""
+	for k in maps.keys():
+		cmap = LinearSegmentedColormap.from_list(k, maps[k])
+		cmap_r = LinearSegmentedColormap.from_list(k+"_r", maps[k][::-1])
+		plt.register_cmap(cmap=cmap)
+		plt.register_cmap(cmap = cmap_r)
+
+
+def list_maps(maptype = False, verbose = False):
+	"""
+	List all available colormaps by name. Optionally filter for colormap properties.
+
+	Parameters:
+		maptype (str): Either "sequential" or "diverging". Use this to filter the available palettes. Default is no preference for colormap type.
+		verbose (bool): Default is False. Enables printing of additional information.
+
+	Returns:
+		The list of available colormaps (that match search criteria).
+	"""
+	
+	for k in maps.keys():
+		if not maptype:
+			if verbose:
+				print(k, maps[k]['cycle'], maps[k]['maptype'] + 'colormap')
+			if not verbose:
+				print(k)
+		if maptype:
+			if maps[k]['maptype'] == maptype:
+				if verbose:
+					print(k, maps[k]['cycle'], maps[k]['maptype'] + 'colormap')
+				if not verbose:
+					print(k)
 
 
 def LondonCalling(reverse_cmap = False):
@@ -58,7 +95,7 @@ def LondonCalling(reverse_cmap = False):
 	Parameters:
 		reverse_cmap (str): Default is False.
 	"""
-	get_map('LondonCalling', reverse_cmap)
+	return get_map('LondonCalling', reverse_cmap)
 
 
 def Clampdown(reverse_cmap = False):
@@ -70,7 +107,7 @@ def Clampdown(reverse_cmap = False):
 	Parameters:
 		reverse_cmap (str): Default is False.
 	"""
-	get_map('Clampdown', reverse_cmap)
+	return get_map('Clampdown', reverse_cmap)
 
 
 def Antisocialites(reverse_cmap = False):
@@ -82,7 +119,7 @@ def Antisocialites(reverse_cmap = False):
 	Parameters:
 		reverse_cmap (str): Default is False.
 	"""
-	get_map('Antisocialites', reverse_cmap)
+	return get_map('Antisocialites', reverse_cmap)
 
 
 def PlimsollPunks(reverse_cmap = False):
@@ -94,7 +131,7 @@ def PlimsollPunks(reverse_cmap = False):
 	Parameters:
 		reverse_cmap (str): Default is False.
 	"""
-	get_map('PlimsollPunks', reverse_cmap)
+	return get_map('PlimsollPunks', reverse_cmap)
 
 
 def RhumbLine(reverse_cmap = False):
@@ -106,7 +143,7 @@ def RhumbLine(reverse_cmap = False):
 	Parameters:
 		reverse_cmap (str): Default is False.
 	"""
-	get_map('RhumbLine', reverse_cmap)
+	return get_map('RhumbLine', reverse_cmap)
 
 
 def Winter05(reverse_cmap = False):
@@ -118,7 +155,7 @@ def Winter05(reverse_cmap = False):
 	Parameters:
 		reverse_cmap (str): Default is False.
 	"""
-	get_map('Winter05', reverse_cmap)
+	return get_map('Winter05', reverse_cmap)
 
 
 def Matangi(reverse_cmap = False):
@@ -130,7 +167,7 @@ def Matangi(reverse_cmap = False):
 	Parameters:
 		reverse_cmap (str): Default is False.
 	"""
-	get_map('Matangi', reverse_cmap)
+	return get_map('Matangi', reverse_cmap)
 
 
 def MellonCollie(reverse_cmap = False):
@@ -142,7 +179,7 @@ def MellonCollie(reverse_cmap = False):
 	Parameters:
 		reverse_cmap (str): Default is False.
 	"""
-	get_map('MellonCollie', reverse_cmap)
+	return get_map('MellonCollie', reverse_cmap)
 
 
 def MellonCollie2012(reverse_cmap = False):
@@ -154,7 +191,7 @@ def MellonCollie2012(reverse_cmap = False):
 	Parameters:
 		reverse_cmap (str): Default is False.
 	"""
-	get_map('MellonCollie2012', reverse_cmap)
+	return get_map('MellonCollie2012', reverse_cmap)
 
 
 def Yoshimi(reverse_cmap = False):
@@ -166,7 +203,7 @@ def Yoshimi(reverse_cmap = False):
 	Parameters:
 		reverse_cmap (str): Default is False.
 	"""
-	get_map('Yoshimi', reverse_cmap)
+	return get_map('Yoshimi', reverse_cmap)
 
 
 def Figure8(reverse_cmap = False):
@@ -178,7 +215,7 @@ def Figure8(reverse_cmap = False):
 	Parameters:
 		reverse_cmap (str): Default is False.
 	"""
-	get_map('Figure8', reverse_cmap)
+	return get_map('Figure8', reverse_cmap)
 
 
 def LiveThroughThis(reverse_cmap = False):
@@ -190,7 +227,7 @@ def LiveThroughThis(reverse_cmap = False):
 	Parameters:
 		reverse_cmap (str): Default is False.
 	"""
-	get_map('LiveThroughThis', reverse_cmap)
+	return get_map('LiveThroughThis', reverse_cmap)
 
 
 def MissWorld(reverse_cmap = False):
@@ -202,7 +239,7 @@ def MissWorld(reverse_cmap = False):
 	Parameters:
 		reverse_cmap (str): Default is False.
 	"""
-	get_map('MissWorld', reverse_cmap)
+	return get_map('MissWorld', reverse_cmap)
 
 
 def Post(reverse_cmap = False):
@@ -214,7 +251,7 @@ def Post(reverse_cmap = False):
 	Parameters:
 		reverse_cmap (str): Default is False.
 	"""
-	get_map('Post', reverse_cmap)
+	return get_map('Post', reverse_cmap)
 
 
 def VampireWeekend(reverse_cmap = False):
@@ -226,7 +263,7 @@ def VampireWeekend(reverse_cmap = False):
 	Parameters:
 		reverse_cmap (str): Default is False.
 	"""
-	get_map('VampireWeekend', reverse_cmap)
+	return get_map('VampireWeekend', reverse_cmap)
 
 
 def CopperBlue(reverse_cmap = False):
@@ -238,7 +275,7 @@ def CopperBlue(reverse_cmap = False):
 	Parameters:
 		reverse_cmap (str): Default is False.
 	"""
-	get_map('CopperBlue', reverse_cmap)
+	return get_map('CopperBlue', reverse_cmap)
 
 
 def Dreamland(reverse_cmap = False):
@@ -250,7 +287,7 @@ def Dreamland(reverse_cmap = False):
 	Parameters:
 		reverse_cmap (str): Default is False.
 	"""
-	get_map('Dreamland', reverse_cmap)
+	return get_map('Dreamland', reverse_cmap)
 
 
 def HeatWaves(reverse_cmap = False):
@@ -262,7 +299,7 @@ def HeatWaves(reverse_cmap = False):
 	Parameters:
 		reverse_cmap (str): Default is False.
 	"""
-	get_map('HeatWaves', reverse_cmap)
+	return get_map('HeatWaves', reverse_cmap)
 
 
 def Garbage(reverse_cmap = False):
@@ -274,7 +311,7 @@ def Garbage(reverse_cmap = False):
 	Parameters:
 		reverse_cmap (str): Default is False.
 	"""
-	get_map('Garbage', reverse_cmap)
+	return get_map('Garbage', reverse_cmap)
 
 
 def Vow(reverse_cmap = False):
@@ -286,7 +323,7 @@ def Vow(reverse_cmap = False):
 	Parameters:
 		reverse_cmap (str): Default is False.
 	"""
-	get_map('Vow', reverse_cmap)
+	return get_map('Vow', reverse_cmap)
 
 
 def BlameItOnGravity(reverse_cmap = False):
@@ -298,7 +335,7 @@ def BlameItOnGravity(reverse_cmap = False):
 	Parameters:
 		reverse_cmap (str): Default is False.
 	"""
-	get_map('BlameItOnGravity', reverse_cmap)
+	return get_map('BlameItOnGravity', reverse_cmap)
 
 
 def ChutesTooNarrow(reverse_cmap = False):
@@ -310,7 +347,7 @@ def ChutesTooNarrow(reverse_cmap = False):
 	Parameters:
 		reverse_cmap (str): Default is False.
 	"""
-	get_map('ChutesTooNarrow', reverse_cmap)
+	return get_map('ChutesTooNarrow', reverse_cmap)
 
 
 def YoungPilgrims(reverse_cmap = False):
@@ -322,7 +359,7 @@ def YoungPilgrims(reverse_cmap = False):
 	Parameters:
 		reverse_cmap (str): Default is False.
 	"""
-	get_map('YoungPilgrims', reverse_cmap)
+	return get_map('YoungPilgrims', reverse_cmap)
 
 
 
