@@ -16,7 +16,7 @@ covers['LondonCalling']['maptype'] = "sequential"
 covers['Antisocialites']['cycle'] = ['#1b201c', '#d44f2c', '#f6d339', '#4855a4', '#5d7661', '#d4e0ec']
 covers['Antisocialites']['cmap'] = ['#b9d0e0', '#faf0e6', '#ef9d6d']
 covers['Antisocialites']['ncolors'] = 6
-covers['Antisocialties']['maptype'] = "diverging"
+covers['Antisocialites']['maptype'] = "diverging"
 
 covers['RhumbLine']['cycle'] = ['#31343b', '#579eb2', '#8f8C7b', '#e7a834', '#256c82', '#e9ddb7']
 covers['RhumbLine']['cmap'] = ['#579eb2', '#e9ddb7', '#e7a834']
@@ -107,31 +107,29 @@ def list_palettes(mincolors = False, maptype = False, verbose = False):
 	"""
 	
 	for k in covers.keys():
-		if (not mincolors) & (not maptype):
+		if not mincolors and not maptype:
 			if verbose:
 				print(k, covers[k]['cycle'], covers[k]['maptype'] + 'colormap')
 			if not verbose:
 				print(k)
-		if (mincolors) & (not maptype):
+		if mincolors and not maptype:
 			if covers[k]['ncolors'] >= mincolors:
 				if verbose:
 					print(k, covers[k]['cycle'], covers[k]['maptype'] + 'colormap')
 				if not verbose:
 					print(k)
-		if (not mincolors) & (maptype):
+		if maptype and not mincolors:
 			if covers[k]['maptype'] == maptype:
 				if verbose:
 					print(k, covers[k]['cycle'], covers[k]['maptype'] + 'colormap')
 				if not verbose:
 					print(k)
-		if (mincolors) & (maptype):
+		if mincolors and maptype:
 			if (covers[k]['ncolors'] >= mincolors) & (covers[k]['maptype'] == maptype):
 				if verbose:
 					print(k, covers[k]['cycle'], covers[k]['maptype'] + 'colormap')
 				if not verbose:
 					print(k)
-
-
 
 
 
@@ -147,12 +145,10 @@ def set_default(palette, verbose = False, reverse_cmap = False):
 	"""
 
 	matplotlib.rcParams['axes.prop_cycle'] = matplotlib.cycler(color=covers[palette]['cycle']) 
-	cmap = LinearSegmentedColormap.from_list(palette, covers[palette]['cmap'])
-	cmap_r = LinearSegmentedColormap.from_list(palette+"_r", covers[palette]['cmap'][::-1])
 	if not reverse_cmap:
-		matplotlib.rcParams['image.cmap'] = cmap
+		matplotlib.rcParams['image.cmap'] = palette
 	if reverse_cmap:
-		matplotlib.rcParams['image.cmap'] = cmap_r
+		matplotlib.rcParams['image.cmap'] = palette+"_r"
 	if verbose:
 		print("Cycled colors in %s are: "%(palette) + covers[palette]['cycle'].values)
 
@@ -167,12 +163,10 @@ def set_default_cmap(palette, reverse_cmap = False):
 			reverse_cmap (bool/str): Default is False. To reverse the colormap, use the keyword argument reverse_cmap = True or just use a string -- e.g., set_default('LondonCalling', 'reverse').
 	"""
 
-	cmap = LinearSegmentedColormap.from_list(palette, covers[palette]['cmap'])
-	cmap_r = LinearSegmentedColormap.from_list(palette+"_r", covers[palette]['cmap'][::-1])
 	if not reverse_cmap:
-		matplotlib.rcParams['image.cmap'] = cmap
+		matplotlib.rcParams['image.cmap'] = palette
 	if reverse_cmap:
-		matplotlib.rcParams['image.cmap'] = cmap_r
+		matplotlib.rcParams['image.cmap'] = palette+"_r"
 
 
 def set_default_ccycle(palette, verbose = False):
