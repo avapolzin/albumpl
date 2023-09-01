@@ -26,60 +26,59 @@ Each of the included palettes has been checked with [COBLIS](https://www.color-b
 
 The palette options (to now) are:
 1. __LondonCalling__ inspired by The Clash - _London Calling_ (which, of course, ***technically*** means it was inspired by Elvis Presley's eponymous album)
-![LondonCalling_summary](https://github.com/avapolzin/albumpl/assets/29441772/780dc5a5-1a4f-47cc-9cf1-f2e0aad68a6c)
+![LondonCalling_summary](https://github.com/avapolzin/albumpl/assets/29441772/27db7318-20d0-4bc2-8a17-cfb41592ef75)
 
 2. __Antisocialites__ inspired by Alvvays - _Antisocialites_
-![Antisocialites_summary](https://github.com/avapolzin/albumpl/assets/29441772/79e3f41f-2634-458d-88d0-ce69bb5eae34)
+![Antisocialites_summary](https://github.com/avapolzin/albumpl/assets/29441772/13bd2938-051c-4150-b069-8e9476ba5336)
 
 3. __RhumbLine__ inspired by Ra Ra Riot - _The Rhumb Line_
-![RhumbLine_summary](https://github.com/avapolzin/albumpl/assets/29441772/38d0058c-5a89-47dd-887a-92e2cba95765)
+![RhumbLine_summary](https://github.com/avapolzin/albumpl/assets/29441772/012b07ef-a4dd-4456-a2b4-ae731106a30d)
 
 4. __Matangi__ inspired by M.I.A. - _Matangi_
-![Matangi_summary](https://github.com/avapolzin/albumpl/assets/29441772/a2514337-34ce-42f6-bc06-7cb50d9b16f4)
+![Matangi_summary](https://github.com/avapolzin/albumpl/assets/29441772/d26d43c9-96e1-4795-b544-c673e1dddb5f)
 
 5. __MellonCollie__ inspired by the Smashing Pumpkins - _Mellon Collie and the Infinite Sadness_
-![MellonCollie_summary](https://github.com/avapolzin/albumpl/assets/29441772/762333f5-a749-4a31-8556-c135ce286d78)
+![MellonCollie_summary](https://github.com/avapolzin/albumpl/assets/29441772/079861b9-7aa6-4854-993e-9f4dbe691ec5)
 
 6. __MellonCollie2012__ inspired by the Smashing Pumpkins - _Mellon Collie and the Infinite Sadness (2012 Deluxe Edition)_
-![MellonCollie2012_summary](https://github.com/avapolzin/albumpl/assets/29441772/2daef05d-9b29-41f3-b7ee-d45ac8da2142)
+![MellonCollie2012_summary](https://github.com/avapolzin/albumpl/assets/29441772/1004c6cd-a611-4b6f-be02-1ae10b3d6b16)
 
 7. __Yoshimi__ inspired by the Flaming Lips - _Yoshimi Battles the Pink Robots_
-![Yoshimi_summary](https://github.com/avapolzin/albumpl/assets/29441772/f2c3ff06-eaa3-4cd9-aa40-82379451af82)
+![Yoshimi_summary](https://github.com/avapolzin/albumpl/assets/29441772/91fb301e-b39b-49fc-91b1-1f264f532872)
 
 8. __Figure8__ inspired by Elliott Smith - _Figure 8_
-![Figure8_summary](https://github.com/avapolzin/albumpl/assets/29441772/dfd75c64-e5ef-4808-b490-55c1b22e1fc0)
+![Figure8_summary](https://github.com/avapolzin/albumpl/assets/29441772/97e5e4db-0760-4d5a-8bbf-b0af064e4235)
 
 9. __LiveThroughThis__ inspired by Hole - _Live Through This_
-![LiveThroughThis_summary](https://github.com/avapolzin/albumpl/assets/29441772/e15d78bb-afc8-4099-a92b-9289a07af508)
+![LiveThroughThis_summary](https://github.com/avapolzin/albumpl/assets/29441772/7379fd94-4e31-4cec-bad3-fd009e4a5b2f)
 
 10. __Post__ inspired by Björk - _Post_
-![Post_summary](https://github.com/avapolzin/albumpl/assets/29441772/60ebd12f-3a9c-4435-aa57-bcef7a439afa)
+![Post_summary](https://github.com/avapolzin/albumpl/assets/29441772/95687e05-cf27-4987-bf95-3d066d888de6)
 
 11. __VampireWeekend__ inspired by Vampire Weekend's self-titled debut
-![VampireWeekend_summary](https://github.com/avapolzin/albumpl/assets/29441772/50c3015a-31e6-416a-89ac-c13f4f9ddf08)
+![VampireWeekend_summary](https://github.com/avapolzin/albumpl/assets/29441772/2d3904fd-f25b-4e8e-980a-140edab69890)
 
 12. __CopperBlue__ inspired by Sugar - _Copper Blue_
-![CopperBlue_summary](https://github.com/avapolzin/albumpl/assets/29441772/612794be-43a7-469f-b79b-fcc14ad0093c)
+![CopperBlue_summary](https://github.com/avapolzin/albumpl/assets/29441772/6f2cc0ef-f354-48f7-b5ed-5c0f419d3ba1)
 
 13. __Dreamland__ inspired by Glass Animals - _Dreamland_
-![Dreamland_summary](https://github.com/avapolzin/albumpl/assets/29441772/14e07728-374d-44cc-85ac-c6c4c84b29da)
+![Dreamland_summary](https://github.com/avapolzin/albumpl/assets/29441772/0b7ba095-098b-4698-bd73-2f072bf57934)
 
 14. __Garbage__ inspired by Garbage - _Garbage_
-![Garbage_summary](https://github.com/avapolzin/albumpl/assets/29441772/d754af41-f976-4198-a1e6-97fc4cac8d81)
+![Garbage_summary](https://github.com/avapolzin/albumpl/assets/29441772/cf67fe44-b6ce-406f-a4e7-8d9c4fdeb9ad)
 
 15. __BlameItOnGravity__ inspired by Old 97's - _Blame It On Gravity_
-![BlameItOnGravity_summary](https://github.com/avapolzin/albumpl/assets/29441772/c0b3c4ba-4380-47c7-ae82-fe94442f2dd2)
+![BlameItOnGravity_summary](https://github.com/avapolzin/albumpl/assets/29441772/03f9613e-f7ea-46c8-a9ba-2194fee55291)
 
 16. __ChutesTooNarrow__ inspired by the Shins - _Chutes Too Narrow_
-![ChutesTooNarrow_summary](https://github.com/avapolzin/albumpl/assets/29441772/16f284bc-8435-42e8-bdbc-acc948f00a06)
+![ChutesTooNarrow_summary](https://github.com/avapolzin/albumpl/assets/29441772/8d330b03-cefa-4062-a176-d1b3e906d9f3)
 
 
 There are also a handful of alternative colormaps included in `albumpl`, which are not the default colormap associated with a particular palette, but can be accessed individually in the same way as any other colormap.
 
 These standalone colormaps (named for songs on the album that inspired them) are:
 
-<img src ="https://user-images.githubusercontent.com/29441772/213897847-131d6c8f-ab4e-4f95-bee7-4cc77fde2ec6.png" width=30%> <img src="https://github.com/avapolzin/albumpl/assets/29441772/4a389d33-31fb-4362-b6d7-c491a94547a4" width=30%> <img src="https://user-images.githubusercontent.com/29441772/210009492-2f98280c-4451-4ae7-88f6-a58724e4fa3c.png" width=30%> <img src="https://github.com/avapolzin/albumpl/assets/29441772/118d7146-0d5e-42dc-9228-0bd3beab2307" width=30%> <img src="https://github.com/avapolzin/albumpl/assets/29441772/9a887722-a2c8-4767-837a-3e6f0a1230a3" width=30%> <img src="https://github.com/avapolzin/albumpl/assets/29441772/37d94f81-ab0f-49e6-be3c-4a9a527b9808" width=30%> <img src="https://github.com/avapolzin/albumpl/assets/29441772/bd113ead-46b2-480b-b6b0-574370a169c0" width=30%>
-
+<img src="https://github.com/avapolzin/albumpl/assets/29441772/c6188294-eb87-49ab-8a88-ea7a397d8cbe" width=30%> <img src="https://github.com/avapolzin/albumpl/assets/29441772/3dba42e4-b0bd-4998-9594-e1a58794193f" width=30%> <img src="https://github.com/avapolzin/albumpl/assets/29441772/321ddbfb-0a8d-4684-aff2-94d2160fc2f7" width=30%> <img src="https://github.com/avapolzin/albumpl/assets/29441772/6760e7f0-bafd-487b-ba27-4a6abb14e6f0" width=30%> <img src="https://github.com/avapolzin/albumpl/assets/29441772/0d6c3021-53f4-4fcd-8ce6-28c39ebfe054" width=30%> <img src="https://github.com/avapolzin/albumpl/assets/29441772/3de4aa2c-f6fe-4b51-a42e-43425f675790" width=30%> <img src="https://github.com/avapolzin/albumpl/assets/29441772/e600af19-16d4-4b05-aaa2-f716d98866bf" width=30%>
 
 
 Additional palettes and colormaps will be added moving forward. Is there a specific album you want considered for a future palette? Please open an issue with the name of the album and artist and an image of the album cover.
@@ -134,7 +133,7 @@ set_default_cmap('RhumbLine')
 ```
 
 - **To access colormaps without setting them as default:**
-Having run `register_all`, you can access all of the colormaps using strings -- i.e., 'Matangi' or 'MellonCollie_r' for the reversed 'MellonCollie' map -- or you can access the colormaps via functions (kind of nice for some things like easily toggling whether a map is reversed or not).
+Having run `register_all`, you can access all of the colormaps using strings -- i.e., 'Matangi' or 'MellonCollie_r' for the reversed 'MellonCollie' map -- or you can access the colormaps via functions (offered as an option since it can be kind of nice for things like easily toggling whether a map is reversed or not).
 ```python
 import matplotlib.pyplot as plt
 from albumpl.cmap import * #yes, this is bad practice, but easiest in this case!
@@ -165,4 +164,5 @@ For ease, you may also decide to permanently register these colormaps, effective
 
 ***
 These palettes and colormaps are designed with a focus on remaining faithful to the appearance of the album covers instead of emphasizing perceptual uniformity. Most are still pretty good in this regard, but, just for everyone's peace of mind, following `matplotlib`, the lightness of each colormap as a function of index is shown below (all sequential maps are shown dark-to-light for easier comparison).
-![Lightness](https://github.com/avapolzin/albumpl/assets/29441772/922db75b-4fe5-4d0a-b7d3-9674c07a55c4)
+![Lightness](https://github.com/avapolzin/albumpl/assets/29441772/146ce43c-7f5d-48c4-8647-041f79f30b08)
+
