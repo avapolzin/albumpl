@@ -1,6 +1,8 @@
 # `albumpl`
 Custom matplotlib color palettes based on album covers.
 
+[![DOI](https://zenodo.org/badge/426833310.svg)](https://zenodo.org/badge/latestdoi/426833310)
+
 To install:
 ```bash
 cd ~
