@@ -1,7 +1,13 @@
 import matplotlib
 from matplotlib.colors import LinearSegmentedColormap
 
-covers = {} #not the most loc efficient, but neat and easy to update
+class Vividict(dict):
+	## with thanks to https://stackoverflow.com/a/24089632
+    def __missing__(self, key):
+        value = self[key] = type(self)()
+        return value
+
+covers = Vividict() #not the most loc efficient, but neat and easy to update
 covers['LondonCalling']['cycle'] = ['#343530', '#d67892', '#c0b7b0', '#018c51']
 covers['LondonCalling']['cmap'] = ['#343530', '#d8d4cb']
 covers['LondonCalling']['ncolors'] = 4
