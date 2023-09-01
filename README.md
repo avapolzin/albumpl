@@ -76,7 +76,7 @@ There are also a handful of alternative colormaps included in `albumpl`, which a
 
 These standalone colormaps (named for songs on the album that inspired them) are:
 
-<img src ="https://user-images.githubusercontent.com/29441772/213897847-131d6c8f-ab4e-4f95-bee7-4cc77fde2ec6.png" width=30%> <img src="https://github.com/avapolzin/albumpl/assets/29441772/4a389d33-31fb-4362-b6d7-c491a94547a4" width=30%> <img src="https://user-images.githubusercontent.com/29441772/210009492-2f98280c-4451-4ae7-88f6-a58724e4fa3c.png" width=30%> <img src="https://github.com/avapolzin/albumpl/assets/29441772/118d7146-0d5e-42dc-9228-0bd3beab2307" width=30%> <img src="https://github.com/avapolzin/albumpl/assets/29441772/bd113ead-46b2-480b-b6b0-574370a169c0" width=30%>
+<img src ="https://user-images.githubusercontent.com/29441772/213897847-131d6c8f-ab4e-4f95-bee7-4cc77fde2ec6.png" width=30%> <img src="https://github.com/avapolzin/albumpl/assets/29441772/4a389d33-31fb-4362-b6d7-c491a94547a4" width=30%> <img src="https://user-images.githubusercontent.com/29441772/210009492-2f98280c-4451-4ae7-88f6-a58724e4fa3c.png" width=30%> <img src="https://github.com/avapolzin/albumpl/assets/29441772/118d7146-0d5e-42dc-9228-0bd3beab2307" width=30%> <img src="https://github.com/avapolzin/albumpl/assets/29441772/9a887722-a2c8-4767-837a-3e6f0a1230a3" width=30%> <img src="https://github.com/avapolzin/albumpl/assets/29441772/37d94f81-ab0f-49e6-be3c-4a9a527b9808" width=30%> <img src="https://github.com/avapolzin/albumpl/assets/29441772/bd113ead-46b2-480b-b6b0-574370a169c0" width=30%>
 
 
 
