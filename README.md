@@ -112,7 +112,7 @@ from albumpl.cmap import register_all
 
 register_all()
 ```
-This is necessary for any of the `albumpl.palette` functions that use the colormaps.
+This is necessary for any of the `albumpl.palette` functions that use the colormaps, such as `set_default` and `set_default_cmap`.
 
 - **To list all palettes and their properties:**
 ```python
@@ -122,7 +122,7 @@ list_palettes()
 ```
 *You can also filter for number of colors in the color cycle or type of colormap (sequential/diverging) with the arguments `mincolors` and `maptype`.*
 
-- **To list all colormapss:**
+- **To list all colormaps:**
 ```python
 from albumpl.cmap import list_maps
 
