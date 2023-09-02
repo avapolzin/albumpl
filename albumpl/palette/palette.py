@@ -68,7 +68,7 @@ covers['CopperBlue']['cmap'] = ['#4d2a0a', '#cc8432', '#eec460', '#f3eec6', '#94
 covers['CopperBlue']['ncolors'] = 6
 covers['CopperBlue']['maptype'] = "diverging"
 
-covers['Dreamland']['cmap'] = ['#6b56f3', '#ff7c53', '#4eb5e0', '#f64bab', '#da50fe', '#b4d5f8']
+covers['Dreamland']['cycle'] = ['#6b56f3', '#ff7c53', '#4eb5e0', '#f64bab', '#da50fe', '#b4d5f8']
 covers['Dreamland']['cmap'] = ['#4eb5e0', '#b4d5f8', '#da50fe']
 covers['Dreamland']['ncolors'] = 6
 covers['Dreamland']['maptype'] = "diverging"
