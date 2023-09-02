@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
 	name = "albumpl",
-	version = "0.2.0",
+	version = "0.2.1",
 	author = "Ava Polzin",
 	author_email = "apolzin@uchicago.edu",
 	description = "Matplotlib color palettes based on album covers.",
