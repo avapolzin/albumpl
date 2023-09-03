@@ -19,7 +19,7 @@ or
 pip install albumpl
 ```
 
-If you use this package or the scripts in this repository in a publication, please add a footnote linking to https://github.com/avapolzin/albuMPL-palette and/or consider adding this software to your acknowledgments. If you would like to cite `albumpl`, please use the Zenodo DOI linked here. 
+If you use this package or the scripts in this repository in a publication, please add a footnote linking to https://github.com/avapolzin/albumpl and/or consider adding this software to your acknowledgments. If you would like to cite `albumpl`, please use the Zenodo DOI linked here. 
 ```tex
 @software{ava_polzin_2023_8307551,
   author       = {Ava Polzin},
@@ -107,7 +107,7 @@ Additional palettes and colormaps will be added moving forward. Is there a speci
 ### Some quick recipes.
 
 Before doing anything you will need to register the new album-inspired colormaps. To do this:
-```bash
+```python
 from albumpl.cmap import register_all
 
 register_all()
@@ -149,6 +149,15 @@ set_default_cmap('RhumbLine')
 
 - **To access colormaps without setting them as default:**
 Having run `register_all`, you can access all of the colormaps using strings -- i.e., 'Matangi' or 'MellonCollie_r' for the reversed 'MellonCollie' map -- or you can access the colormaps via functions (offered as an option since it can be kind of nice for things like easily toggling whether a map is reversed or not).
+
+```python
+import matplotlib.pyplot as plt
+from albumpl.cmap import * #yes, this is bad practice, but easiest in this case!
+
+register_all() #should only be run one time at the beginning of a script
+plt.imshow(image, cmap = 'Yoshimi')
+```
+*or*
 ```python
 import matplotlib.pyplot as plt
 from albumpl.cmap import * #yes, this is bad practice, but easiest in this case!
@@ -167,6 +176,7 @@ plt.imshow(image, cmap = LiveThroughThis('reverse'))
 ```python
 plt.imshow(image, cmap = Post('_r'))
 ```
+
 - **To access the colors in a color cycle/palette without setting a default:**
 ```python
 from albumpl.palette import return_colors
@@ -175,7 +185,7 @@ return_colors('VampireWeekend')
 ```
 
 
-For ease, you may also decide to permanently register these colormaps, effectively adding them to your current installation of `matplotlib`. You can find an up-to-date version of those instructions [here](https://matplotlib.org/stable/api/cm_api.html).
+<!-- For ease, you may also decide to permanently register these colormaps, effectively adding them to your current installation of `matplotlib`. You can find an up-to-date version of those instructions [here](https://matplotlib.org/stable/api/cm_api.html). -->
 
 ***
 These palettes and colormaps are designed with a focus on remaining faithful to the appearance of the album covers instead of emphasizing perceptual uniformity. Most are still pretty good in this regard, but, just for everyone's peace of mind, following `matplotlib`, the lightness of each colormap as a function of index is shown below (all sequential maps are shown dark-to-light for easier comparison).
