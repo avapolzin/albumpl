@@ -100,7 +100,7 @@ Additional palettes and colormaps will be added moving forward. Is there a speci
 
 <sup><sub>About the sample images: For sequential colormaps, the sample image is photometric _HST_ data of the dwarf galaxy [COSMOS-dw1](https://ui.adsabs.harvard.edu/abs/2021ApJ...914L..23P/abstract) in F814W. The sample image for diverging colormaps is an HI velocity map of the galaxy [M33 from GALFA-HI](https://ui.adsabs.harvard.edu/abs/2009ApJ...703.1486P/abstract). </sub></sup>
 
-<sup><sub>And, though it should go without saying, I'll add: use of an artist's album cover to make a palette is not an endorsement of the artist or their (broadcasted) personal views.</sub></sup>
+<sup><sub>And, though it should go without saying, I'll add: use of an artist's album cover to make a palette is not an endorsement of the artist or their (broadcast) personal views.</sub></sup>
 
 ***
 # How to use `albumpl`:
