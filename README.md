@@ -193,4 +193,4 @@ These palettes and colormaps are designed with a focus on remaining faithful to 
 
 ***
 # Papers that use `albumpl`:
-- [Polzin et al. (2024)](https://arxiv.org/abs/2404.01382){:target="_blank}
+- [Polzin et al. (2024)](https://arxiv.org/abs/2404.01382)
