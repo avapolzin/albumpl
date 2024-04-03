@@ -1,7 +1,7 @@
 # `albumpl`
 Custom matplotlib color palettes based on album covers.
 
-[![DOI](https://zenodo.org/badge/426833310.svg)](https://zenodo.org/badge/latestdoi/426833310)
+[![DOI](https://zenodo.org/badge/426833310.svg)](https://zenodo.org/badge/latestdoi/426833310) [![Downloads](https://static.pepy.tech/badge/albumpl)](https://pepy.tech/project/albumpl)
 
 To install:
 ```bash
@@ -191,3 +191,6 @@ return_colors('VampireWeekend')
 These palettes and colormaps are designed with a focus on remaining faithful to the appearance of the album covers instead of emphasizing perceptual uniformity. Most are still pretty good in this regard, but, just for everyone's peace of mind, following `matplotlib`, the lightness of each colormap as a function of index is shown below (all sequential maps are shown dark-to-light for easier comparison).
 ![Lightness](https://github.com/avapolzin/albumpl/assets/29441772/146ce43c-7f5d-48c4-8647-041f79f30b08)
 
+***
+# Papers that use `albumpl`:
+- [Polzin et al. (2024)](https://arxiv.org/abs/2404.01382){:target="_blank}
