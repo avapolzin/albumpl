@@ -1,5 +1,6 @@
 import matplotlib
 from matplotlib.colors import LinearSegmentedColormap
+from albumpl.cmap import register_all
 
 class Vividict(dict):
 	## with thanks to https://stackoverflow.com/a/24089632
@@ -88,6 +89,7 @@ covers['ChutesTooNarrow']['cmap'] = ['#aada77', '#fffffd', '#8dcfdf']
 covers['ChutesTooNarrow']['ncolors'] = 6
 covers['ChutesTooNarrow']['maptype'] = "diverging"
 
+register_all()
 
 ##########
 # * * * *

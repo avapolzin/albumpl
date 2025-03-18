@@ -1,8 +1,11 @@
 import setuptools
+from pathlib import Path
+albumpl_home = Path(__file__).parent
+pypi_descrip = (albumpl_home / "README.md").read_text()
 
 setuptools.setup(
 	name = "albumpl",
-	version = "0.2.1",
+	version = "0.3",
 	author = "Ava Polzin",
 	author_email = "apolzin@uchicago.edu",
 	description = "Matplotlib color palettes based on album covers.",
@@ -15,5 +18,7 @@ setuptools.setup(
 		"Operating System :: OS Independent",
 		"Programming Language :: Python"],
 	python_requires = ">=3",
-	install_requires = ["matplotlib"]
+	install_requires = ["matplotlib"],
+	long_description=pypi_descrip,
+	long_description_content_type='text/markdown'
 )

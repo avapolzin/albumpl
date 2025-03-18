@@ -38,6 +38,8 @@ I'd love to feature plots/figures that make use of these palettes in the wild, s
 
 Each of the included palettes has been checked with [COBLIS](https://www.color-blindness.com/coblis-color-blindness-simulator/), and should be legible for individuals with most common forms of color blindness. Best, though, is to check your specific figures' readability, too.
 
+(Interested in university-inspired palettes and colormaps? Check out [`rahrah`](https://github.com/avapolzin/rahrah).)
+
 
 The palette options (to now) are:
 1. __LondonCalling__ inspired by The Clash - _London Calling_ (which, of course, ***technically*** means it was inspired by Elvis Presley's eponymous album)
@@ -106,13 +108,13 @@ Additional palettes and colormaps will be added moving forward. Is there a speci
 # How to use `albumpl`:
 ### Some quick recipes.
 
-Before doing anything you will need to register the new album-inspired colormaps. To do this:
+If you are using v0.2 or below, before doing anything you will need to register the new album-inspired colormaps. To do this:
 ```python
 from albumpl.cmap import register_all
 
 register_all()
 ```
-This is necessary for any of the `albumpl.palette` functions that use the colormaps, such as `set_default` and `set_default_cmap`.
+This is necessary for any of the `albumpl.palette` functions that use the colormaps, such as `set_default` and `set_default_cmap`. This is not necessary for versions >0.3.
 
 - **To list all palettes and their properties:**
 ```python
@@ -148,7 +150,7 @@ set_default_cmap('RhumbLine')
 ```
 
 - **To access colormaps without setting them as default:**
-Having run `register_all`, you can access all of the colormaps using strings -- i.e., 'Matangi' or 'MellonCollie_r' for the reversed 'MellonCollie' map -- or you can access the colormaps via functions (offered as an option since it can be kind of nice for things like easily toggling whether a map is reversed or not).
+You can access all of the colormaps using strings -- i.e., 'Matangi' or 'MellonCollie_r' for the reversed 'MellonCollie' map.
 
 ```python
 import matplotlib.pyplot as plt
@@ -157,7 +159,7 @@ from albumpl.cmap import * #yes, this is bad practice, but easiest in this case!
 register_all() #should only be run one time at the beginning of a script
 plt.imshow(image, cmap = 'Yoshimi')
 ```
-*or*
+*or* if you are using version 0.2 or older you can access the colormaps via functions (offered as an option since it can be kind of nice for things like easily toggling whether a map is reversed or not) -- this is deprecated in v0.3 and above:
 ```python
 import matplotlib.pyplot as plt
 from albumpl.cmap import * #yes, this is bad practice, but easiest in this case!
