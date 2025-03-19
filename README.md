@@ -1,4 +1,5 @@
-# `albumpl`
+![albumpl_logo 001](https://github.com/user-attachments/assets/5c11856d-1f9f-4418-a977-48aa6d83ba84)
+
 Custom matplotlib color palettes based on album covers.
 
 [![DOI](https://zenodo.org/badge/426833310.svg)](https://zenodo.org/badge/latestdoi/426833310) [![Downloads](https://static.pepy.tech/badge/albumpl)](https://pepy.tech/project/albumpl)
