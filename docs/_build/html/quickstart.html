@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quickstart Guide &mdash; albumpl 0.3.5 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Palette/Colormap Options" href="options.html" />
+    <link rel="prev" title="Custom matplotlib color palettes based on album covers." href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            albumpl
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Quickstart Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="options.html">Palette/Colormap Options</a></li>
+<li class="toctree-l1"><a class="reference internal" href="citation.html">Citation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="gallery.html">Gallery</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">albumpl</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Quickstart Guide</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/quickstart.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="quickstart-guide">
+<span id="albumpl-quickstart"></span><h1>Quickstart Guide<a class="headerlink" href="#quickstart-guide" title="Permalink to this headline"></a></h1>
+<p>How to use <code class="docutils literal notranslate"><span class="pre">albumpl</span></code>:</p>
+<p>If you are using v0.2 or below, before doing anything you will need to register the new album-inspired colormaps. To do this:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">albumpl.cmap</span> <span class="kn">import</span> <span class="n">register_all</span>
+
+<span class="n">register_all</span><span class="p">()</span>
+</pre></div>
+</div>
+<p>This is necessary for any of the <code class="docutils literal notranslate"><span class="pre">albumpl.palette</span></code> functions that use the colormaps, such as <code class="docutils literal notranslate"><span class="pre">set_default</span></code> and <code class="docutils literal notranslate"><span class="pre">set_default_cmap</span></code>. This is not necessary for versions &gt;0.3.</p>
+<ul class="simple">
+<li><p><strong>To list all palettes and their properties:</strong></p></li>
+</ul>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">albumpl.palette</span> <span class="kn">import</span> <span class="n">list_palettes</span>
+
+<span class="n">list_palettes</span><span class="p">()</span>
+</pre></div>
+</div>
+<p>You can also filter for number of colors in the color cycle or type of colormap (sequential/diverging) with the arguments mincolors and maptype.</p>
+<ul class="simple">
+<li><p><strong>To list all colormaps:</strong></p></li>
+</ul>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">albumpl.cmap</span> <span class="kn">import</span> <span class="n">list_maps</span>
+
+<span class="n">list_maps</span><span class="p">()</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p><strong>To set palette as default for both color cycle and colormap:</strong></p></li>
+</ul>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">albumpl.palette</span> <span class="kn">import</span> <span class="n">set_default</span>
+
+<span class="n">set_default</span><span class="p">(</span><span class="s1">&#39;LondonCalling&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p><strong>To set a palette as default for color cycle or colormap:</strong></p></li>
+</ul>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">alumpl.palette</span> <span class="kn">import</span> <span class="n">set_default_ccyle</span><span class="p">,</span> <span class="n">set_default_cmap</span>
+
+<span class="n">set_default_ccyle</span><span class="p">(</span><span class="s1">&#39;Antisocialites&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p><em>or</em>
+.. code-block:: python</p>
+<blockquote>
+<div><p>set_default_cmap(‘RhumbLine’)</p>
+</div></blockquote>
+<ul class="simple">
+<li><p><strong>To access colormaps without setting them as default:</strong></p></li>
+</ul>
+<p>You can access all of the colormaps using strings – i.e., ‘Matangi’ or ‘MellonCollie_r’ for the reversed ‘MellonCollie’ map.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="kn">from</span> <span class="nn">albumpl.cmap</span> <span class="kn">import</span> <span class="o">*</span> <span class="c1">#yes, this is bad practice, but easiest in this case!</span>
+
+<span class="n">register_all</span><span class="p">()</span> <span class="c1">#should only be run one time at the beginning of a script</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">imshow</span><span class="p">(</span><span class="n">image</span><span class="p">,</span> <span class="n">cmap</span> <span class="o">=</span> <span class="s1">&#39;Yoshimi&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>If you are using version 0.2 or older you can access the colormaps via functions (offered as an option since it can be kind of nice for things like easily toggling whether a map is reversed or not) – this is deprecated in v0.3 and above:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="kn">from</span> <span class="nn">albumpl.cmap</span> <span class="kn">import</span> <span class="o">*</span> <span class="c1">#yes, this is bad practice, but easiest in this case!</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">imshow</span><span class="p">(</span><span class="n">image</span><span class="p">,</span> <span class="n">cmap</span> <span class="o">=</span> <span class="n">Yoshimi</span><span class="p">())</span>
+</pre></div>
+</div>
+<p>To reverse the colormap, use the argument <cite>reverse_cmap = True</cite> or just feed the colormap the string “reverse” or “_r”.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">imshow</span><span class="p">(</span><span class="n">image</span><span class="p">,</span> <span class="n">cmap</span> <span class="o">=</span> <span class="n">Figure8</span><span class="p">(</span><span class="n">reverse_cmap</span> <span class="o">=</span> <span class="kc">True</span><span class="p">))</span>
+</pre></div>
+</div>
+<p><em>or</em></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">imshow</span><span class="p">(</span><span class="n">image</span><span class="p">,</span> <span class="n">cmap</span> <span class="o">=</span> <span class="n">LiveThroughThis</span><span class="p">(</span><span class="s1">&#39;reverse&#39;</span><span class="p">))</span>
+</pre></div>
+</div>
+<p><em>or</em></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">imshow</span><span class="p">(</span><span class="n">image</span><span class="p">,</span> <span class="n">cmap</span> <span class="o">=</span> <span class="n">Post</span><span class="p">(</span><span class="s1">&#39;_r&#39;</span><span class="p">))</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p><strong>To access the colors in a color cycle/palette without setting a default:</strong></p></li>
+</ul>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">albumpl.palette</span> <span class="kn">import</span> <span class="n">return_colors</span>
+
+<span class="n">return_colors</span><span class="p">(</span><span class="s1">&#39;VampireWeekend&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>All of the individual functions are detailed below.</p>
+<span class="target" id="module-albumpl.palette"></span><dl class="py function">
+<dt class="sig sig-object py" id="albumpl.palette.list_palettes">
+<span class="sig-prename descclassname"><span class="pre">albumpl.palette.</span></span><span class="sig-name descname"><span class="pre">list_palettes</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">mincolors</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">maptype</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">verbose</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#albumpl.palette.list_palettes" title="Permalink to this definition"></a></dt>
+<dd><p>List all available palettes by name. Optionally filter for color cycle and colormap properties.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>mincolors</strong> (<em>int</em>) – Minimum number of colors in color cycle. Use this to filter the available palettes. Default is no minimum.</p></li>
+<li><p><strong>maptype</strong> (<em>str</em>) – Either “sequential” or “diverging”. Use this to filter the available palettes. Default is no preference for colormap type.</p></li>
+<li><p><strong>verbose</strong> (<em>bool</em>) – Default is False. Enables printing of additional information.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>The list of available palettes (that match search criteria).</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="albumpl.palette.return_colors">
+<span class="sig-prename descclassname"><span class="pre">albumpl.palette.</span></span><span class="sig-name descname"><span class="pre">return_colors</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">palette</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#albumpl.palette.return_colors" title="Permalink to this definition"></a></dt>
+<dd><p>Return colors in a particular palette’s color cycle.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>palette</strong> (<em>str</em>) – Name of palette.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="albumpl.palette.set_default">
+<span class="sig-prename descclassname"><span class="pre">albumpl.palette.</span></span><span class="sig-name descname"><span class="pre">set_default</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">palette</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">verbose</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">reverse_cmap</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#albumpl.palette.set_default" title="Permalink to this definition"></a></dt>
+<dd><p>Set palette as default colormap and color cycle.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>palette</strong> (<em>str</em>) – Name of palette to set as default.</p></li>
+<li><p><strong>verbose</strong> (<em>bool</em>) – Default is False. Enables printing of additional information about the color cycle.</p></li>
+<li><p><strong>reverse_cmap</strong> (<em>bool/str</em>) – Default is False. To reverse the colormap, use the keyword argument reverse_cmap = True or just use a string – e.g., set_default(‘LondonCalling’, ‘reverse’).</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="albumpl.palette.set_default_ccycle">
+<span class="sig-prename descclassname"><span class="pre">albumpl.palette.</span></span><span class="sig-name descname"><span class="pre">set_default_ccycle</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">palette</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">verbose</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#albumpl.palette.set_default_ccycle" title="Permalink to this definition"></a></dt>
+<dd><p>Set palette as default color cycle.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>palette</strong> (<em>str</em>) – Name of palette to set as default.</p></li>
+<li><p><strong>verbose</strong> (<em>bool</em>) – Default is False. Enables printing of additional information about the color cycle.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="albumpl.palette.set_default_cmap">
+<span class="sig-prename descclassname"><span class="pre">albumpl.palette.</span></span><span class="sig-name descname"><span class="pre">set_default_cmap</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">palette</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">reverse_cmap</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#albumpl.palette.set_default_cmap" title="Permalink to this definition"></a></dt>
+<dd><p>Set palette as default colormap.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>palette</strong> (<em>str</em>) – Name of palette to set as default.</p></li>
+<li><p><strong>reverse_cmap</strong> (<em>bool/str</em>) – Default is False. To reverse the colormap, use the keyword argument reverse_cmap = True or just use a string – e.g., set_default(‘LondonCalling’, ‘reverse’).</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<span class="target" id="module-albumpl.cmap"></span><dl class="py function">
+<dt class="sig sig-object py" id="albumpl.cmap.get_map">
+<span class="sig-prename descclassname"><span class="pre">albumpl.cmap.</span></span><span class="sig-name descname"><span class="pre">get_map</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">palette</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">reverse_cmap</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#albumpl.cmap.get_map" title="Permalink to this definition"></a></dt>
+<dd><p>Access colormaps for each album cover.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>palette</strong> (<em>str</em>) – Name of album cover.</p></li>
+<li><p><strong>reverse_cmap</strong> (<em>str</em>) – Default is False.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="albumpl.cmap.list_maps">
+<span class="sig-prename descclassname"><span class="pre">albumpl.cmap.</span></span><span class="sig-name descname"><span class="pre">list_maps</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">maptype</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">verbose</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#albumpl.cmap.list_maps" title="Permalink to this definition"></a></dt>
+<dd><p>List all available colormaps by name. Optionally filter for colormap properties.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>maptype</strong> (<em>str</em>) – Either “sequential” or “diverging”. Use this to filter the available palettes. Default is no preference for colormap type.</p></li>
+<li><p><strong>verbose</strong> (<em>bool</em>) – Default is False. Enables printing of additional information.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>The list of available colormaps (that match search criteria).</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="albumpl.cmap.register_all">
+<span class="sig-prename descclassname"><span class="pre">albumpl.cmap.</span></span><span class="sig-name descname"><span class="pre">register_all</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#albumpl.cmap.register_all" title="Permalink to this definition"></a></dt>
+<dd><p>Register all of the colormaps.</p>
+</dd></dl>
+
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="index.html" class="btn btn-neutral float-left" title="Custom matplotlib color palettes based on album covers." accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="options.html" class="btn btn-neutral float-right" title="Palette/Colormap Options" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2024, Ava Polzin.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
