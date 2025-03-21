@@ -62,24 +62,24 @@ rst_epilog = """
             :alt: chutes-too-narrow
 .. |clampdown| image:: https://github.com/avapolzin/albumpl/assets/29441772/c6188294-eb87-49ab-8a88-ea7a397d8cbe
             :alt: london-calling-alt-clampdown
-            :scale: 30%
+            :width: 300px
 .. |plimsollpunks| image:: https://github.com/avapolzin/albumpl/assets/29441772/3dba42e4-b0bd-4998-9594-e1a58794193f
             :alt: antisocialites-alt-plimsoll-punks
-            :scale: 30%
+            :width: 300px
 .. |winter05| image:: https://github.com/avapolzin/albumpl/assets/29441772/321ddbfb-0a8d-4684-aff2-94d2160fc2f7
             :alt: rhumb-line-alt-winter05
-            :scale: 30%
+            :width: 300px
 .. |missworld| image:: https://github.com/avapolzin/albumpl/assets/29441772/6760e7f0-bafd-487b-ba27-4a6abb14e6f0
             :alt: live-through-this-alt-miss-world
-            :scale: 30%
+            :width: 300px
 .. |heatwaves| image:: https://github.com/avapolzin/albumpl/assets/29441772/0d6c3021-53f4-4fcd-8ce6-28c39ebfe054
             :alt: dreamland-alt-heat-waves
-            :scale: 30%
+            :width: 300px
 .. |vow| image:: https://github.com/avapolzin/albumpl/assets/29441772/3de4aa2c-f6fe-4b51-a42e-43425f675790
             :alt: garbage-alt-vow
-            :scale: 30%
+            :width: 300px
 .. |youngpilgrims| image:: https://github.com/avapolzin/albumpl/assets/29441772/e600af19-16d4-4b05-aaa2-f716d98866bf
             :alt: chutes-too-narrow-alt-young-pilgrims
-            :scale: 30%
+            :width: 300px
 
 """

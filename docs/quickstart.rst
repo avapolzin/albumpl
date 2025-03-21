@@ -52,6 +52,7 @@ You can also filter for number of colors in the color cycle or type of colormap 
 	set_default_ccyle('Antisocialites')
 
 *or*
+
 .. code-block:: python
 
 	set_default_cmap('RhumbLine')
