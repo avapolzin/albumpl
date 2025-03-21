@@ -81,5 +81,7 @@ rst_epilog = """
 .. |youngpilgrims| image:: https://github.com/avapolzin/albumpl/assets/29441772/e600af19-16d4-4b05-aaa2-f716d98866bf
             :alt: chutes-too-narrow-alt-young-pilgrims
             :width: 200px
+.. |lightnessv0.3| image:: https://github.com/avapolzin/albumpl/assets/29441772/146ce43c-7f5d-48c4-8647-041f79f30b08
+            :alt: lightness-v0.3
 
 """
