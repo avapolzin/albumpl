@@ -1,0 +1,26 @@
+|logo|
+
+Custom matplotlib color palettes based on album covers.
+=======================================================
+
+[![DOI](https://zenodo.org/badge/426833310.svg)](https://zenodo.org/badge/latestdoi/426833310) [![Downloads](https://static.pepy.tech/badge/albumpl)](https://pepy.tech/project/albumpl)
+
+To install ``albumpl``, either ``pip install albumpl`` or install the development version from the distribution on `GitHub <https://github.com/avapolzin/albumpl>`_.
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Contents:
+
+   quickstart.rst
+   options.rst
+   citation.rst
+   gallery.rst
+
+
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`

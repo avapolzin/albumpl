@@ -5,7 +5,7 @@ pypi_descrip = (albumpl_home / "README.md").read_text()
 
 setuptools.setup(
 	name = "albumpl",
-	version = "0.3",
+	version = "0.3.5",
 	author = "Ava Polzin",
 	author_email = "apolzin@uchicago.edu",
 	description = "Matplotlib color palettes based on album covers.",
