@@ -2,7 +2,7 @@
 
 Custom matplotlib color palettes based on album covers.
 
-[![DOI](https://zenodo.org/badge/426833310.svg)](https://zenodo.org/badge/latestdoi/426833310) [![Downloads](https://static.pepy.tech/badge/albumpl)](https://pepy.tech/project/albumpl)
+[![Documentation Status](https://readthedocs.org/projects/albumpl/badge/?version=latest)](https://albumpl.readthedocs.io/en/latest/?badge=latest)[![DOI](https://zenodo.org/badge/426833310.svg)](https://zenodo.org/badge/latestdoi/426833310) [![Downloads](https://static.pepy.tech/badge/albumpl)](https://pepy.tech/project/albumpl)
 
 To install:
 ```bash

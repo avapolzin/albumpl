@@ -4,6 +4,7 @@ Quickstart Guide
 ================
 
 How to use ``albumpl``:
+-----------------------
 
 If you are using v0.2 or below, before doing anything you will need to register the new album-inspired colormaps. To do this:
 
