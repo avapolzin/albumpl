@@ -56,8 +56,8 @@ def register_all():
 	for k in maps.keys():
 		cmap = LinearSegmentedColormap.from_list(k, maps[k])
 		cmap_r = LinearSegmentedColormap.from_list(k+"_r", maps[k][::-1])
-		plt.register_cmap(cmap=cmap)
-		plt.register_cmap(cmap = cmap_r)
+		matplotlib.colormaps.register(cmap=cmap)
+		matplotlib.colormaps.register(cmap = cmap_r)
 
 register_all()
 
