@@ -43,7 +43,10 @@
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
 <ul class="current">
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Quickstart Guide</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Quickstart Guide</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#how-to-use-albumpl">How to use <code class="docutils literal notranslate"><span class="pre">albumpl</span></code>:</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="options.html">Palette/Colormap Options</a></li>
 <li class="toctree-l1"><a class="reference internal" href="citation.html">Citation</a></li>
 <li class="toctree-l1"><a class="reference internal" href="gallery.html">Gallery</a></li>
@@ -75,7 +78,8 @@
              
   <section id="quickstart-guide">
 <span id="albumpl-quickstart"></span><h1>Quickstart Guide<a class="headerlink" href="#quickstart-guide" title="Permalink to this headline"></a></h1>
-<p>How to use <code class="docutils literal notranslate"><span class="pre">albumpl</span></code>:</p>
+<section id="how-to-use-albumpl">
+<h2>How to use <code class="docutils literal notranslate"><span class="pre">albumpl</span></code>:<a class="headerlink" href="#how-to-use-albumpl" title="Permalink to this headline"></a></h2>
 <p>If you are using v0.2 or below, before doing anything you will need to register the new album-inspired colormaps. To do this:</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">albumpl.cmap</span> <span class="kn">import</span> <span class="n">register_all</span>
 
@@ -116,11 +120,10 @@
 <span class="n">set_default_ccyle</span><span class="p">(</span><span class="s1">&#39;Antisocialites&#39;</span><span class="p">)</span>
 </pre></div>
 </div>
-<p><em>or</em>
-.. code-block:: python</p>
-<blockquote>
-<div><p>set_default_cmap(‘RhumbLine’)</p>
-</div></blockquote>
+<p><em>or</em></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">set_default_cmap</span><span class="p">(</span><span class="s1">&#39;RhumbLine&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
 <ul class="simple">
 <li><p><strong>To access colormaps without setting them as default:</strong></p></li>
 </ul>
@@ -269,6 +272,7 @@
 <dd><p>Register all of the colormaps.</p>
 </dd></dl>
 
+</section>
 </section>
 
 

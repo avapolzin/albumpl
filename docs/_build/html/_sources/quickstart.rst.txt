@@ -4,6 +4,7 @@ Quickstart Guide
 ================
 
 How to use ``albumpl``:
+-----------------------
 
 If you are using v0.2 or below, before doing anything you will need to register the new album-inspired colormaps. To do this:
 
@@ -52,6 +53,7 @@ You can also filter for number of colors in the color cycle or type of colormap 
 	set_default_ccyle('Antisocialites')
 
 *or*
+
 .. code-block:: python
 
 	set_default_cmap('RhumbLine')
