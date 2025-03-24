@@ -48,7 +48,7 @@ You can also filter for number of colors in the color cycle or type of colormap 
 
 .. code-block:: python
 
-	from alumpl.palette import set_default_ccyle, set_default_cmap
+	from albumpl.palette import set_default_ccyle, set_default_cmap
 
 	set_default_ccyle('Antisocialites')
 

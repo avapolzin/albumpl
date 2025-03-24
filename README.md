@@ -20,20 +20,7 @@ or
 pip install albumpl
 ```
 
-If you use this package or the scripts in this repository in a publication, please add a footnote linking to https://github.com/avapolzin/albumpl and/or consider adding this software to your acknowledgments. If you would like to cite `albumpl`, please use the Zenodo DOI linked here. 
-```tex
-@software{ava_polzin_2023_8307551,
-  author       = {Ava Polzin},
-  title        = {albumpl},
-  month        = sep,
-  year         = 2023,
-  publisher    = {Zenodo},
-  version      = {v0.2.0},
-  doi          = {10.5281/zenodo.8307551},
-  url          = {https://doi.org/10.5281/zenodo.8307551}
-}
-```
-
+If you use this package or the scripts in this repository in a publication, please add a footnote linking to https://github.com/avapolzin/albumpl and/or consider adding this software to your acknowledgments. If you would like to cite `albumpl`, please use the Zenodo DOI linked here.
 
 I'd love to feature plots/figures that make use of these palettes in the wild, so should these palettes be of use, please send me a copy of that figure and/or a link to your paper or presentation and I will share it here.
 
@@ -141,7 +128,7 @@ set_default('LondonCalling')
 
 - **To set a palette as default for color cycle *or* colormap:**
 ```python
-from alumpl.palette import set_default_ccyle, set_default_cmap
+from albumpl.palette import set_default_ccyle, set_default_cmap
 
 set_default_ccyle('Antisocialites')
 ```
